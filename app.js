@@ -1,7 +1,7 @@
-document.querySelector('.btn-date').addEventListener('click', function() {
+document.querySelector(".roll-dice").addEventListener("click", function () {
+	var dice = Math.floor(Math.random() * 6) + 1; 
 
-	var today = Date(); 
-	document.getElementById("date").textContent = today; 
+	document.querySelector(".dice").src = 'dice-' + dice + '.png'; 
 });
 
-var d = Date(); 
+
