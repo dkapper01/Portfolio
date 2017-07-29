@@ -1,3 +1,17 @@
 body {
+	margin: 0;
+	padding: 0;
 	background-color: lightblue; 
+}
+
+.dice {
+	display: block;
+	margin: auto;
+	
+}
+.position-dice {
+	border: 1px solid black;
+}
+.position-btn {
+	
 }
