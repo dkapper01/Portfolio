@@ -64,8 +64,16 @@ h2 {
 	margin: auto;
 	display: block;
 }
-.players-name {
+.players-info {
 	text-align: center; 
+	margin: 5px auto;
+}
+.dice-position {
+	margin-top: 125px; 
+}
+.score {
+	height: 200px;
+	font-size: 250%; 
 }
 .row {
 	text-align: center;
