@@ -47,6 +47,7 @@ h2 {
 	width: 400px; 
 	margin: auto;
 	display: block;
+	position: relative;
 }
 .player-2-panel {
 	float: left;
@@ -54,6 +55,7 @@ h2 {
 	width: 400px; 
 	margin: auto;
 	display: block;
+	position: relative;
 }
 .dice-panel {
 	float: left;
