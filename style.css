@@ -3,15 +3,60 @@ body {
 	padding: 0;
 	background-color: lightblue; 
 }
+div {
+	padding: 2px;
+	margin: 2px; 
+	border: 1px solid red; 
+}
+h2 {
+	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+.container {
+	width: 1200px; 
+	height: 600px; 
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 50px; 
+	padding-top: 5px; 
+}
 
 .dice {
 	display: block;
 	margin: auto;
+	width: 100px;
+	height: 100px;
 	
 }
-.position-dice {
-	border: 1px solid black;
+.roll-dice {
+	display: block;
+	margin: auto;
 }
-.position-btn {
-	
+.player-1-panel {
+	float: left;
+	height: 450px; 
+	width: 400px; 
+}
+.player-2-panel {
+	float: left;
+	height: 450px; 
+	width: 400px; 
+	display: inline-block;
+}
+.dice-panel {
+	float: left;
+	height: 200px; 
+	width: 200px;
+}
+.players-name {
+	text-align: center; 
+}
+.row {
+	text-align: center;
+	clear: left;
 }
