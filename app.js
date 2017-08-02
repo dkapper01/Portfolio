@@ -1,5 +1,5 @@
 var roundScore = 0; 
-
+var totalScore = 0; 
 document.querySelector(".roll-dice").addEventListener("click", function () {
 	var dice = Math.floor(Math.random() * 6) + 1; 
 	console.log(dice)
@@ -9,6 +9,11 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 	roundScore += dice; 
 	document.querySelector(".current-1").textContent = roundScore; 
 	console.log(roundScore); 
-	});
+});
 
 
+document.querySelector('.hold-dice').addEventListener('click', function () {
+	totalScore = roundScore; 
+
+	document.querySelector('.score').textContent = totalScore; 
+})
