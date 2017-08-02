@@ -1,7 +1,6 @@
-
- init(); 
- 	var roundScore = 0; 
-	var totalScore = 0;
+init(); 
+var roundScore = 0; 
+var totalScore = 0;
 
 
 
