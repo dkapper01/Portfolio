@@ -12,7 +12,11 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 
 	roundScore += dice; 
 	document.querySelector(".current-1").textContent = roundScore; 
-	console.log(roundScore); 
+
+	if(dice === 1) {
+		console.log("You lose"); 
+	}
+	
 });
 
 
