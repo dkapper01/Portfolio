@@ -15,7 +15,7 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 
 	if(dice != 1) {
 		roundScore += dice; 
-		document.querySelector(".current-0").textContent = roundScore; 
+		document.querySelector('.current-' + activePlayer).textContent = roundScore; 
 	} else {
 		roundScore = 0;
 		// next player
@@ -29,10 +29,10 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 document.querySelector('.hold-dice').addEventListener('click', function () {
 	totalScore[activePlayer] += roundScore; 
 
-	document.querySelector('.score').textContent = totalScore[activePlayer]; 
+	document.querySelector('.score' + activePlayer).textContent = totalScore[activePlayer]; 
 
 	roundScore = 0;
-	document.querySelector('.current-0').textContent = '0'; 
+	document.querySelector('.current-' + activePlayer).textContent = '0'; 
 
 	if(totalScore[activePlayer] >= 30) {
 		console.log('winner');
@@ -44,5 +44,5 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 function init () { 
 
 	document.querySelector('.current-0').textContent = '0';
-	document.querySelector('.score').textContent = '0';
+	document.querySelector('.score-0').textContent = '0';
 }
