@@ -27,6 +27,11 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 
 	roundScore = 0;
 	document.querySelector('.current-1').textContent = '0'; 
+
+	if(totalScore >= 30) {
+		console.log('winner');
+		document.querySelector('.players-info').innerHTML = '<h1>Winner!</h1>'
+	}
 }); 
 
 
