@@ -2,7 +2,7 @@ init();
 var roundScore = 0; 
 var totalScore = 0;
 var activePlayer = 0; 
-totalScore = [0,0]; 
+var totalScore = [0,0]; 
 
 
 
@@ -18,9 +18,14 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 		document.querySelector('.current-' + activePlayer).textContent = roundScore; 
 	} else {
 		roundScore = 0;
-		// next player
-		activePlayer = 1; 
+		// next player 
 		console.log('next player'); 
+
+		if(activePlayer === 0) {
+			activePlayer = 1; 
+		} else {
+			activePlayer = 0; 
+		}
 	}
 	
 });
@@ -29,14 +34,22 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 document.querySelector('.hold-dice').addEventListener('click', function () {
 	totalScore[activePlayer] += roundScore; 
 
-	document.querySelector('.score' + activePlayer).textContent = totalScore[activePlayer]; 
+	document.getElementById('score-' + activePlayer).textContent = totalScore[activePlayer]; 
 
 	roundScore = 0;
 	document.querySelector('.current-' + activePlayer).textContent = '0'; 
 
+	//next player 
+	if(activePlayer === 0) {
+			activePlayer = 1; 
+		} else {
+			activePlayer = 0; 
+		}
+
 	if(totalScore[activePlayer] >= 30) {
 		console.log('winner');
 		document.querySelector('.players-info').innerHTML = '<h1>Winner!</h1>'
+
 	}
 }); 
 
@@ -44,5 +57,8 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 function init () { 
 
 	document.querySelector('.current-0').textContent = '0';
-	document.querySelector('.score-0').textContent = '0';
+	document.getElementById('score-0').textContent = '0';
+
+	document.querySelector('.current-1').textContent = '0';
+	document.getElementById('score-1').textContent = '0';
 }
