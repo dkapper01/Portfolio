@@ -21,11 +21,7 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 		// next player 
 		console.log('next player'); 
 
-		if(activePlayer === 0) {
-			activePlayer = 1; 
-		} else {
-			activePlayer = 0; 
-		}
+		nextPlayer(); 
 	}
 	
 });
@@ -39,12 +35,7 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 	roundScore = 0;
 	document.querySelector('.current-' + activePlayer).textContent = '0'; 
 
-	//next player 
-	if(activePlayer === 0) {
-			activePlayer = 1; 
-		} else {
-			activePlayer = 0; 
-		}
+	nextPlayer();  
 
 	if(totalScore[activePlayer] >= 30) {
 		console.log('winner');
@@ -61,4 +52,12 @@ function init () {
 
 	document.querySelector('.current-1').textContent = '0';
 	document.getElementById('score-1').textContent = '0';
+}
+
+function nextPlayer () {
+	if(activePlayer === 0) {
+		activePlayer = 1; 
+	} else {
+		activePlayer = 0; 
+	}
 }

@@ -20,17 +20,16 @@ h2 {
 .container {
 	width: 1200px; 
 	height: 600px; 
+		display: inline-block;
 	margin-left: auto;
 	margin-right: auto; 
 	margin-top: 50px; 
 	padding-top: 5px; 
 	text-align: center;
 }
-.game-wapper {
+/*.game-wapper {
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto; 
-}
+}*/
 .dice {
 	display: block;
 	margin: auto;
@@ -65,10 +64,11 @@ h2 {
 	margin: auto;
 	display: block;
 }
-.players-info {
+/*.players-info {
 	text-align: center; 
 	margin: 5px auto;
-}
+	background: black;
+}*/
 .dice-position {
 	margin-top: 125px; 
 }
@@ -83,6 +83,10 @@ h2 {
 	font-size: 500%; 
 }
 .current-0 {
+	height: 100px; 
+	font-size: 250%;
+}
+.current-1 {
 	height: 100px; 
 	font-size: 250%;
 }
