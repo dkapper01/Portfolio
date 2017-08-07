@@ -16,6 +16,16 @@ h2 {
     box-sizing: border-box;
     
 }
+button {
+	background-color: #008CBA;
+	font-size: 20px; 
+	border: none;
+	padding: 15px 32px; 
+	margin: 4px 2px;
+	color: white; 
+	/*display: inline-block;*/
+	/*text-decoration: none; */
+}
 .container {
 	width: 1000px; 
 	height: 600px; 
