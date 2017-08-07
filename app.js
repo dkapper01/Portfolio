@@ -35,11 +35,11 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 	document.querySelector('.current-' + activePlayer).textContent = '00';   
 
 	if(totalScore[activePlayer] >= 20) {
-		console.log('winner');
 		document.querySelector('.title-' + activePlayer).innerHTML = '<h1>Winner!</h1>'
 
 		if(activePlayer == 0) {
 			document.querySelector('.title-1').innerHTML = '<h1>Loser!</h1>'
+
 		} else {
 			document.querySelector('.title-0').innerHTML = '<h1>Loser!</h1>'
 		}
@@ -57,6 +57,8 @@ function init () {
 
 	document.querySelector('.current-1').textContent = '0';
 	document.getElementById('score-1').textContent = '0';
+	document.querySelector('.player-0-panel').classList.add('active');
+	document.querySelector('.player-1-panel').classList.remove('active');
 }
 
 function nextPlayer () {
