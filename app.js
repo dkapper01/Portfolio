@@ -38,6 +38,12 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 		console.log('winner');
 		document.querySelector('.title-' + activePlayer).innerHTML = '<h1>Winner!</h1>'
 
+		// if(activePlayer == 0) {
+		// 	document.querySelector('.title-1').innerHTML = '<h1>Loser!</h1>'
+		// } else {
+		// 	document.querySelector('.title-0').innerHTML = '<h1>Loser!</h1>'
+		// }
+
 	}
 
 	nextPlayer();
@@ -61,7 +67,7 @@ function nextPlayer () {
 		document.querySelector('.player-1-panel').classList.add('active');
 	} else {
 		activePlayer = 0; 
-		document.querySelector('.player-0-panel').classList.add('.active');
+		document.querySelector('.player-1-panel').classList.add('active');
 		document.querySelector('.player-1-panel').classList.remove('.active');
 	}
 }
