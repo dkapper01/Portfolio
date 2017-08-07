@@ -30,14 +30,11 @@ h2 {
 .dice {
 	display: block;
 	margin: auto;
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	
 }
-.roll-dice {
-	display: block;
-	margin: auto;
-}
+
 .player-0-panel, 
 .player-1-panel {
 	float: left;
@@ -47,17 +44,6 @@ h2 {
 	display: block;
 	position: relative;
 	padding: 100px; 
-}
-
-.dice-panel {
-	float: left;
-	height: 450px; 
-	width: 200px;
-	margin: auto;
-	display: block;
-}
-.dice-position {
-	margin-top: 125px; 
 }
 
 #score-1, #score-0  {
@@ -73,4 +59,13 @@ h2 {
 }
 .active {
 	background: lightblue; 
+}
+
+.dice {
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	margin-left: -60px;
+	margin-top: -60px; 
+	border: solid 2px black; 
 }
