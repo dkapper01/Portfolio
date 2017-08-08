@@ -1,11 +1,21 @@
-.div {
+body {
+	margin: 0px; 
+	padding: 0px; 
+}
+div {
 	border: solid 1px red;
 }
-.navbar {
-border: solid 1px black; 
+.container {
+	width: 1000px; 
+	margin: 0 auto; 
+}
+.navbar { 
+	border: solid 1px black; 
+	margin: 0px auto;
 }
 .nav ul {
 	list-style: none;
+	text-align: center;
 } 
 
 .nav li {
@@ -17,5 +27,4 @@ border: solid 1px black;
 	padding: 10px 15px 10px 15px; 
 	background-color: green;
 	color: white; 
-	text-align: center;
 }
