@@ -10,16 +10,16 @@ div {
 	margin: 0 auto; 
 }
 .navbar { 
-	border: solid 1px black; 
-	margin: 0px auto;
+	text-align: center;
 }
 .nav ul {
 	list-style: none;
-	text-align: center;
 } 
 
 .nav li {
 	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .nav a {
