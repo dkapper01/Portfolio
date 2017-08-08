@@ -39,9 +39,13 @@ document.querySelector('.hold-dice').addEventListener('click', function () {
 
 		if(activePlayer == 0) {
 			document.querySelector('.title-1').innerHTML = '<h1>Loser!</h1>'
+			document.querySelector('.player-1-panel').classList.remove('active');
+
 
 		} else {
 			document.querySelector('.title-0').innerHTML = '<h1>Loser!</h1>'
+			document.querySelector('.player-1-panel').classList.remove('active');
+
 		}
 
 	}
