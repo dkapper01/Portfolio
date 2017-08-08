@@ -1,0 +1,21 @@
+.div {
+	border: solid 1px red;
+}
+.navbar {
+border: solid 1px black; 
+}
+.nav ul {
+	list-style: none;
+} 
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	float: left;
+	padding: 10px 15px 10px 15px; 
+	background-color: green;
+	color: white; 
+	text-align: center;
+}
