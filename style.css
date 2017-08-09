@@ -13,10 +13,16 @@ div {
 
 ul {
 	list-style-type: none;
-	margin: 0px;
-	padding: 0px; 
-	width: 200px; 
+	margin: 0;
+	padding: 0; 
+	overflow: hidden;
 	background-color: #f1f1f1; 
+}
+li { 
+	float: left;
+	width: 200px; 
+	/*display: inline;*/
+	text-align: center;
 }
 li a {
 	display: block;
@@ -27,4 +33,7 @@ li a {
 li a:hover {
 	background-color: #555; 
 	color: white;
+}
+.active {
+	background-color: #4CAF50; 
 }
