@@ -2,9 +2,9 @@ body {
 	margin: 0px; 
 	padding: 0px; 
 }
-/*div {
+div {
 	border: solid 1px red;
-}*/
+}
 .container {
 	width: 1000px; 
 	height: 1200px; 
@@ -18,13 +18,12 @@ body {
 } 
 
 .nav li {
-	display: inline-block;
-	margin-left: auto;
-    margin-right: auto;
+	/*display: inline-block;*/
+	float: left;
+	list-style-type: none; 
 }
 
 .nav a {
-	float: left;
 	padding: 14px 16px; 
 	background-color: green;
 	color: white; 
