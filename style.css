@@ -7,6 +7,7 @@ div {
 }
 .container {
 	width: 1000px; 
+	height: 1200px; 
 	margin: 0 auto; 
 }
 .navbar { 
@@ -29,4 +30,8 @@ div {
 	color: white; 
 	font-size: 17px; 
 	text-decoration: none;
+}
+footer img .resize {
+	height: 50px
+	width: 50px;
 }
