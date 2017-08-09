@@ -24,7 +24,9 @@ div {
 
 .nav a {
 	float: left;
-	padding: 10px 15px 10px 15px; 
+	padding: 14px 16px; 
 	background-color: green;
 	color: white; 
+	font-size: 17px; 
+	text-decoration: none;
 }
