@@ -81,7 +81,7 @@ button {
 	height: 120px;
 }
 
-button {
+#btn-new {
 	position: absolute;
     top: 30px;
     right: 413px;
