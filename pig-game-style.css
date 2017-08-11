@@ -80,11 +80,11 @@ button {
 	height: 120px;
 }
 
-#btn-new-game {
+.btn-new-game {
 	position: absolute;
     top: 30px;
     right: 413px;
-    border: 3px solid #73AD21;
+    /*border: 3px solid #73AD21;*/
 }
 .btn-roll-dice {
 	position: absolute;
