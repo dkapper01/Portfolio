@@ -6,7 +6,7 @@ var totalScore = [0,0];
 
 
 
-document.querySelector(".roll-dice").addEventListener("click", function () {
+document.querySelector(".btn-roll-dice").addEventListener("click", function () {
 	var dice = Math.floor(Math.random() * 6) + 1; 
 	
 	
@@ -27,7 +27,7 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 });
 
 
-document.querySelector('.hold-dice').addEventListener('click', function () {
+document.querySelector('.btn-hold-dice').addEventListener('click', function () {
 	totalScore[activePlayer] += roundScore; 
 
 	document.getElementById('score-' + activePlayer).textContent = totalScore[activePlayer]; 
