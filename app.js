@@ -10,7 +10,7 @@ document.querySelector(".roll-dice").addEventListener("click", function () {
 	var dice = Math.floor(Math.random() * 6) + 1; 
 	
 	
-	document.querySelector(".dice").src = 'dice-' + dice + '.png'; 
+	document.querySelector(".dice").src = 'img/dice-' + dice + '.png'; 
 	console.log(dice); 
 
 	if(dice != 1) {
