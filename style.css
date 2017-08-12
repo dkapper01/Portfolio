@@ -110,3 +110,10 @@ input[type=submit]:hover {
 	border-radius: 4px;
 	margin: 0px 30px 30px 30px; 
 }
+
+.social-icons {
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+	float: right;
+}
