@@ -5,7 +5,7 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 
 .container {
@@ -65,6 +65,25 @@ img {
 	padding: 0px;
 	float: right;
 }
+
+/*Contact Page*/
 .map {
 	float: left;
+}
+/*Contact Page - form */
+input[type=text], textarea {
+	padding: 12px; 
+	/*border: solid 1px gray; */
+	border-radius: 4px; 
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical
+}
+input[type=submit] {
+	background: #555;
+	color: white; 
+	padding: 12px 20px; 
+	border: none;
+	border-radius: 4px; 
+	cursor: pointer;
 }
