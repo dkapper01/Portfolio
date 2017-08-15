@@ -14,8 +14,20 @@ div {
 	margin: 0 auto; 
 }
 
-/* ------- Navigation Bar ---------- */
-
+/* ------- Navigation Bar ---------- 
+	1. Horizontal 
+ 	2. Active/Current
+ 	3. Dropdown menu
+	4. Responsive - vertical 
+	5. linkedin github icon
+*/
+li .fa-linkedin {
+	color: rgb(0, 119, 181);
+	font-size: 30px; 
+}
+li .fa-github {
+	font-size: 30px; 
+}
 
 /
 /*---------- Contact Page -----------*/
