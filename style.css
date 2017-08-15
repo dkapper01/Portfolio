@@ -4,9 +4,6 @@ body {
 	padding: 0px;
 	font-family: 'Open Sans', sans-serif; 
 }
-div {
-	/*border: solid 1px red;*/
-}
 
 .container {
 	width: 1000px; 
@@ -14,59 +11,15 @@ div {
 	margin: 0 auto; 
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0; 
-	overflow: hidden;
-	/*background-color: #f1f1f1; */
-}
-li { 
-	float: left;
-	width: 100px; 
-	text-align: center;
-}
-li a {
-	display: block;
-	color: #000; 
-	padding: 25px 0px; 
-	text-decoration: none; 
-}
-li a:hover {
-	background-color: #555; 
-	color: white;
-}
-img {
-	/*border-radius: 50%;*/
-	float: left;
-	margin-right: 30px; 
-}
-.active {
-	/*background-color: #4CAF50; */
-}
-.navbar {
-	border-bottom: solid 1px gray;
-	margin-bottom: 70px; 
-}
-.info {
-	display: inline-block;
-	/*border: solid 4px blue;*/
-	width: 998px;  
-}
+/* ------- Navigation Bar ---------- 
+	Horizontal 
+ 	Active/Current
+ 	Dropdown menu
+	Responsive - vertical 
 
-.daniel {
-	border-radius: 50%;
-	float: left;
-	margin-right: 30px; 
+*/
 
-}
-.icon {
-	margin: 20px 10px 10px 10px; 
-	padding: 0px;
-	float: right;
-}
-
-/*Contact Page*/
+/*---------- Contact Page -----------*/
 .map {
 	float: left;
 	margin-left: 30px;
