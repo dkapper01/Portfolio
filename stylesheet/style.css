@@ -4,17 +4,17 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 
 .container {
 	max-width: 1000px; 
-	margin: auto; 
-	overflow: hidden;
-	/*position: relative;*/
 
 }
 
+.right {
+	float: right;
+}
 /* ------- Navigation Bar ---------- 
 	1. Horizontal 
  	2. Active/Current
@@ -23,29 +23,7 @@ div {
 	5. linkedin github icon
 */
 
-ul {
-	/*position: absolute;*/
-	list-style-type: none;
-	/*display: inline-block;*/
-	background-color: black;
-}
 
-li a {
-	float: left;
-	text-decoration: none;
-	display: block;
-	background-color: red;
-	padding: 14px 16px; 
-}
-
-li .fa-linkedin {
-	color: rgb(0, 119, 181);
-	font-size: 30px; 
-	margin: 0px;
-}
-li .fa-github {
-	font-size: 30px; 
-}
 
 /*---------- Contact Page -----------*/
 .map {
@@ -92,9 +70,4 @@ input[type=submit]:hover {
 	margin: 0px 30px 30px 30px; 
 }
 
-.social-icons {
-	clear: both;
-	overflow: hidden;
-	text-align: center;
-	float: right;
-}
+.
