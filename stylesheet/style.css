@@ -6,18 +6,25 @@ body {
 div {
 	/*border: solid 1px red;*/
 }
-
 .container {
 	max-width: 1000px;
 }
-
 .home-img {
-	/*border: 1px solid black; */
 	height: 50%; 
 	width: 50%
 }
-.right {
+.box-one {
+	border: 1px solid blue;
+	display: inline;
+	float: left;
+	margin: 50px; 
+}
+.box-two {
+	border: 1px solid blue; 
 	float: right;
+	height: 400px; 
+	width: 400px; 
+	margin: 50px; 
 }
 /* ------- Navigation Bar ---------- 
 	1. Horizontal 
