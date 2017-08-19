@@ -8,10 +8,14 @@ div {
 }
 
 .container {
-	max-width: 1000px; 
-
+	max-width: 1000px;
 }
 
+.home-img {
+	/*border: 1px solid black; */
+	height: 50%; 
+	width: 50%
+}
 .right {
 	float: right;
 }
