@@ -1,8 +1,67 @@
-body {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
 	background-color: gray; 
 }
 div {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
 h2 {
 	display: inline;
@@ -22,8 +81,6 @@ button {
 	margin: 4px 2px;
 	color: white; 
 	width: 175px; 
-/*	display: inline-block;
-	text-decoration: none; */
 }
 .container {
 	width: 1000px; 
@@ -36,13 +93,7 @@ button {
 	margin-left: -500px; 
 	background: white;
 }
-/*.dice {
-	display: block;
-	margin: auto;
 
-	
-}
-*/
 .player-0-panel, 
 .player-1-panel {
 	float: left;
@@ -50,7 +101,6 @@ button {
 	width: 50%; 
 	margin: auto;
 	display: block;
-	/*position: relative;*/
 	padding: 100px; 
 }
 
@@ -84,7 +134,7 @@ button {
 	position: absolute;
     top: 30px;
     right: 413px;
-    /*border: 3px solid #73AD21;*/
+    border: 3px solid #73AD21;
 }
 .btn-roll-dice {
 	position: absolute;
@@ -95,4 +145,4 @@ button {
 	position: absolute;
 	top: 500px; 
 	right: 413px;
-}
+}*/
