@@ -1,3 +1,4 @@
+init(); 
 
 
  
@@ -15,10 +16,23 @@ document.querySelector(".roll-btn").addEventListener("click", function() {
 
 
 
+function init () {
+	document.querySelector(".dice-0").style.display = 'none';
+	document.querySelector('.dice-1').style.display = 'none'; 
+	document.querySelector('.roll-btn').style.display = 'none'; 
+	document.querySelector('.hold-btn').style.display = 'none';  
+
+	document.querySelector('.player-score-0').textContent = "0"; 
+	document.querySelector('.current-score-0').textContent = "0"; 
+
+	document.querySelector('.player-score-1').textContent = '0'; 
+	document.querySelector('.current-score-1').textContent = '0'; 
+
+	document.querySelector('.player-name-0').classList.remove('bg-success'); 
+	document.querySelector('.player-name-1').classList.remove('bg-danger');
 
 
-
-
+}
 
 
 

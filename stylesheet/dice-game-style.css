@@ -18,11 +18,11 @@ div {
 	text-align: center;
 	padding: 50px; 
 }
-.player-name {
+.player-name-0, .player-name-1 {
 	font-size: 250%; 
 	display: inline-block;
 }
-.player-score {
+.player-score-0, .player-score-1 {
 	font-size: 500%;
 	display: block;
 	margin-top: 80px; 
