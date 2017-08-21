@@ -14,10 +14,12 @@ document.querySelector(".roll-btn").addEventListener("click", function() {
 
 }); 
 
-document.querySelector('.play-btn').addEventListener('click', function () {
+document.querySelector('.play-btn').addEventListener('click', starteGame); 
+document.querySelector('.start-btn').addEventListener('click', starteGame)
 
+function starteGame () {
 	document.querySelector('.play-btn').style.display = 'none'; 
-	
+
 	document.querySelector(".dice-0").style.display = 'block';
 	document.querySelector('.dice-1').style.display = 'block'; 
 	document.querySelector('.start-btn').style.display = 'block'; 
@@ -32,8 +34,7 @@ document.querySelector('.play-btn').addEventListener('click', function () {
 
 	document.querySelector('.player-name-0').classList.add('bg-success'); 
 	document.querySelector('.player-name-1').classList.add('bg-danger');
-
-});
+}
 
 function init () {
 
