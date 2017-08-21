@@ -58,6 +58,12 @@ div {
 	position: absolute;
 	left:450px;
 }
+.play-btn {
+	top: 300px; 
+	left: 400px; 
+	width: 200px; 
+	height: 100px; 
+}
 .start-btn {
 	top: 120px;
 }
