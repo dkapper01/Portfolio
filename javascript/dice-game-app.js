@@ -15,6 +15,10 @@ document.querySelector(".roll-btn").addEventListener("click", function() {
 	if(diceOne !== 1 && diceTwo !== 1) {
 		roundScore += diceOne + diceTwo; 
 		document.getElementById('current-' + activePlayer).textContent = roundScore; 
+		if (diceOne === 6 && diceTwo === 6) {
+			score[activePlayer] = 0; 
+			nextPlayer(); 
+		}
 
 	} else { 
 		document.getElementById('current-' + activePlayer).textContent = '0';
@@ -45,39 +49,6 @@ document.querySelector('.hold-btn').addEventListener('click', function () {
 
 document.querySelector('.play-btn').addEventListener('click', starteGame); 
 document.querySelector('.start-btn').addEventListener('click', starteGame)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function nextPlayer () {
 	roundScore = 0
