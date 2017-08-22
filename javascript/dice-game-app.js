@@ -16,6 +16,8 @@ document.querySelector(".roll-btn").addEventListener("click", function() {
 		roundScore += diceOne + diceTwo; 
 		document.getElementById('current-' + activePlayer).textContent = roundScore; 
 		if (diceOne === 6 && diceTwo === 6) {
+			document.getElementById('score-' + activePlayer).textContent = '0'; 
+			document.getElementById('current-' + activePlayer).textContent = '0'; 
 			score[activePlayer] = 0; 
 			nextPlayer(); 
 		}
