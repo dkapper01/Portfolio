@@ -1,14 +1,22 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 body {
 	margin: 0px; 
 	padding: 0px;
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	/*border: solid 1px red;*/
+	border: solid 1px red;
 }
 .container {
-	/*max-width: 800px;*/
-	margin: 0 auto;
+	max-width: 900px;
+	margin: 0px auto;
+	padding: 0px; 
+	overflow: hidden;
+	height: auto;
 }
 
 /* ------- Navigation Bar ---------- */
@@ -21,7 +29,7 @@ div {
 	margin: 10px 0px 0px 0px; 
 	position: fixed;
 	border-radius: 5px;
-	width: 100%; 
+	width: 900px; 
 }
 .navbar, .left {
 	float: left;
@@ -33,7 +41,7 @@ div {
 	padding: 18px 15px 18px 15px; 
 	text-decoration: none;
 	text-align: center;
-	width: 80px;
+	width: 90px;
 }
 .navbar li a:hover {
 	color: #888888; 
@@ -66,7 +74,7 @@ div {
 }
 
 li.dropdown {
-    display: inline-block;
+    /*display: inline-block;*/
 }
 .width {
 	width: 200px !important;
@@ -91,7 +99,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
  }
-
+/*              test                       */
+.box {
+	height: 400px;
+	width: 400px;
+}
 /*---------- Contact Page -----------*/
 .map {
 	float: left;
