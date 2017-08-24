@@ -4,28 +4,13 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	/*border: solid 1px red;*/
+	border: solid 1px red;
 }
 .container {
-	max-width: 1000px;
+	/*max-width: 800px;*/
+	margin: 0 auto;
 }
-.home-img {
-	height: 50%; 
-	width: 50%
-}
-.box-one {
-	border: 1px solid blue;
-	display: inline;
-	float: left;
-	margin: 50px; 
-}
-.box-two {
-	border: 1px solid blue; 
-	float: right;
-	height: 400px; 
-	width: 400px; 
-	margin: 50px; 
-}
+
 /* ------- Navigation Bar ---------- 
 	1. Horizontal 
  	2. Active/Current
@@ -33,6 +18,40 @@ div {
 	4. Responsive - vertical 
 	5. linkedin github icon
 */
+
+.navbar {
+	background-color: #f8f8f8;
+	border: 1px solid #e7e7e7;
+	border-radius: 0px 0px 5px 5px;
+	list-style-type: none; 
+	padding: 0px; 
+	margin: 0px; 
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+}
+.navbar li {
+	float: left;
+}
+.navbar li a {
+	display: block;
+	color: #777777;
+	padding: 15px; 
+	text-decoration: none;
+	text-align: center;
+}
+.navbar li a:hover {
+	color: #888888; 
+}
+.active {
+	background-color: #e7e7e7; 
+}
+
+@media screen and (max-width: 600px){
+    .navbar li {float: none;}
+}
+
+
 
 
 
