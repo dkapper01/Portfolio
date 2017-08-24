@@ -11,26 +11,20 @@ div {
 	margin: 0 auto;
 }
 
-/* ------- Navigation Bar ---------- 
-	1. Horizontal 
- 	2. Active/Current
- 	3. Dropdown menu
-	4. Responsive - vertical 
-	5. linkedin github icon
-*/
+/* ------- Navigation Bar ---------- */
 
 .navbar {
 	background-color: #f8f8f8;
 	border: 1px solid #e7e7e7;
-	border-radius: 0px 0px 5px 5px;
 	list-style-type: none; 
 	padding: 0px; 
-	margin: 0px; 
+	margin: 10px 0px 0px 0px; 
 	position: fixed;
-	top: 0;
-	overflow: hidden;
+	border-radius: 5px;
+	/*width: 800px; */
+	width: 100%; 
 }
-.navbar li {
+.navbar, .left {
 	float: left;
 }
 .navbar li a {
@@ -46,15 +40,24 @@ div {
 .active {
 	background-color: #e7e7e7; 
 }
-
-@media screen and (max-width: 600px){
-    .navbar li {float: none;}
+.right {
+	float: right;
 }
 
+@media screen and (max-width: 600px){
+    .navbar, .left {
+    	float: none;
+    	border-bottom: 1px solid #e7e7e7;
+    }
+    .navbar, .right {
+    	float: none;
+    	border-bottom: 1px solid #e7e7e7;
+    }
+}
 
-
-
-
+.dropdown {
+	/*position: relative;*/
+}
 /*---------- Contact Page -----------*/
 .map {
 	float: left;
