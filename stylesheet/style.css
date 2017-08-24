@@ -58,11 +58,8 @@ div {
 	list-style-type: none;
 	margin: 30px;
 	position: absolute;
-	/*display: none;*/
+	display: none;
 	background-color: red;
-}
-.dropdown ul {
-		border: 1px solid block;
 }
 
 /*---------- Contact Page -----------*/
