@@ -25,13 +25,15 @@ div {
 }
 .navbar, .left {
 	float: left;
+	border-right: 1px solid #e7e7e7; 
 }
 .navbar li a {
 	display: block;
 	color: #777777;
-	padding: 15px; 
+	padding: 18px 15px 18px 15px; 
 	text-decoration: none;
 	text-align: center;
+	width: 80px;
 }
 .navbar li a:hover {
 	color: #888888; 
@@ -40,17 +42,22 @@ div {
 	background-color: #e7e7e7; 
 }
 .right {
+	border-left: 1px solid #e7e7e7;
 	float: right;
 }
 
 @media screen and (max-width: 600px){
-    .navbar, .left {
+    .left {
     	float: none;
     	border-bottom: 1px solid #e7e7e7;
+    	border-right: none;
     }
     .navbar, .right {
     	float: none;
     	border-bottom: 1px solid #e7e7e7;
+    }
+    .navbar li a {
+    	width: 100%;
     }
 }
 
