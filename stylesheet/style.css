@@ -21,7 +21,6 @@ div {
 	margin: 10px 0px 0px 0px; 
 	position: fixed;
 	border-radius: 5px;
-	/*width: 800px; */
 	width: 100%; 
 }
 .navbar, .left {
@@ -56,8 +55,16 @@ div {
 }
 
 .dropdown {
-	/*position: relative;*/
+	list-style-type: none;
+	margin: 30px;
+	position: absolute;
+	/*display: none;*/
+	background-color: red;
 }
+.dropdown ul {
+		border: 1px solid block;
+}
+
 /*---------- Contact Page -----------*/
 .map {
 	float: left;
