@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 .container {
 	/*max-width: 800px;*/
@@ -61,14 +61,52 @@ div {
     }
 }
 
-.dropdown {
-	list-style-type: none;
-	margin: 30px;
-	position: absolute;
-	display: none;
-	background-color: red;
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
 }
 
+li a:hover, .dropdown:hover .dropbtn {
+    /*background-color: red;*/
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.width {
+	width: 250
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #e7e7e7;
+    /*width: 200px; */
+    /*min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;*/
+}
+
+.dropdown-content a {
+/*	padding: 0px; 
+	margin: 0px; */
+	/*display: block;*/
+	/*width: 100%;*/
+    /*color: black;
+    padding: 12px 16px;*/
+    t/*ext-decoration: none;
+    display: block;
+    text-align: left;*/
+}
+
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+.dropdown:hover .dropdown-content {
+    display: block;
+ }
 /*---------- Contact Page -----------*/
 .map {
 	float: left;
