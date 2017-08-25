@@ -9,25 +9,29 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	border: solid 1px red;
+	border: solid 1px blue;
 }
 .container {
 	max-width: 900px;
 	margin: 0px auto;
 	padding: 0px; 
 	overflow: hidden;
-	height: auto;
+	height: 5000px;
+	position: relative;
 }
 
 /* ------- Navigation Bar ---------- */
+
+.header {
+}
 
 .navbar {
 	background-color: #f8f8f8;
 	border: 1px solid #e7e7e7;
 	list-style-type: none; 
 	padding: 0px; 
-	margin: 10px 0px 0px 0px; 
-	position: fixed;
+	margin: 10px 0px 10px 0px; 
+	position: absolute;
 	border-radius: 5px;
 	width: 900px; 
 }
@@ -48,6 +52,9 @@ div {
 }
 .active {
 	background-color: #e7e7e7; 
+		/* Only need this broder-radius for the active home button */
+		border-radius: 0px 5px 0px px;
+
 }
 .right {
 	border-left: 1px solid #e7e7e7;
@@ -99,11 +106,31 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
  }
-/*              test                       */
-.box {
-	height: 400px;
-	width: 400px;
+
+/* ====================== Home Page ================*/
+
+#daniel {
+	box-shadow: 3px 3px 5px gray;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	float: right;
+	margin: 100px 0px 0px 20px; 
 }
+
+.intro {
+	float: left;
+	margin: 100px 0px; 
+	height: 400px;
+	padding: 15px;
+	width: 600px;
+}
+.box {
+	clear: both;
+	height: 150px; 
+}
+
+.
 /*---------- Contact Page -----------*/
 .map {
 	float: left;
