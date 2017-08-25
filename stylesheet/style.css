@@ -12,7 +12,7 @@ div {
 	border: solid 1px blue;
 }
 .container {
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0px auto;
 	padding: 0px; 
 	overflow: hidden;
@@ -33,7 +33,7 @@ div {
 	margin: 10px 0px 10px 0px; 
 	position: absolute;
 	border-radius: 5px;
-	width: 900px; 
+	width: 100%; 
 }
 .navbar, .left {
 	float: left;
