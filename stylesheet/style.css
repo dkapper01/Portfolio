@@ -22,9 +22,6 @@ div {
 
 /* ------- Navigation Bar ---------- */
 
-.header {
-}
-
 .navbar {
 	background-color: #f8f8f8;
 	border: 1px solid #e7e7e7;
@@ -184,12 +181,11 @@ input[type=submit]:hover {
 	overflow: hidden;
 	width: 854px;
 	margin-top: 150px; 
-	text-align: center;
-	/*border: 1px solid green; */
-	border-radius: 5px; 
+	text-align: center; 
 }
 
 .player-0-panel, .player-1-panel {
+	border-radius: 5px;
 	height: 500px; 
 	width: 425px; 
 	background-color: #e7e7e7;
@@ -197,6 +193,7 @@ input[type=submit]:hover {
 }
 .active-player {
 	background-color: lightgreen;
+	border-radius: 5px;
 }
 .player-name {
 	display: inline-block;
@@ -226,9 +223,26 @@ input[type=submit]:hover {
 	margin: 50px 100px;
 	padding: 15px;
 }
-
-
-
+.dice0 {
+	border: 1px solid black;
+	height: 100px; 
+	width: 100px; 
+	margin: 0px; 
+	padding: 0px;
+	position: absolute;
+	top: 300px;
+	right: 450px; 
+}
+.dice1 {
+	border: 1px solid black;
+	height: 100px; 
+	width: 100px; 
+	margin: 0px; 
+	padding: 0px;
+	position: absolute;
+	top: 405px;
+	right: 450px;
+}
 
 
 
