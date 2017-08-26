@@ -9,7 +9,7 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	border: solid 1px blue;
+	/*border: solid 1px blue;*/
 }
 .container {
 	max-width: 1000px;
@@ -17,7 +17,7 @@ div {
 	padding: 0px; 
 	overflow: hidden;
 	height: 5000px;
-	position: relative;
+	/*position: relative;*/
 }
 
 /* ------- Navigation Bar ---------- */
@@ -185,14 +185,18 @@ input[type=submit]:hover {
 	width: 854px;
 	margin-top: 150px; 
 	text-align: center;
-	border: 1px solid green; 
+	/*border: 1px solid green; */
+	border-radius: 5px; 
 }
 
 .player-0-panel, .player-1-panel {
 	height: 500px; 
 	width: 425px; 
-	background-color: red;
+	background-color: #e7e7e7;
 	float: left;
+}
+.active-player {
+	background-color: lightgreen;
 }
 .player-name {
 	display: inline-block;
@@ -200,7 +204,27 @@ input[type=submit]:hover {
 	letter-spacing: 2px; 
 	font-size: 3em;
 	font-weight: lighter;
+	margin: 50px auto;
 }
+.score-box {
+	border: 1px solid #e7e7e7;
+	display: inline-block;
+	height: 125px; 
+	font-size: 5em;
+	width: 125px;
+	margin: 10px 100px;
+	padding: 15px;
+}
+.current-box {
+	border: 1px solid #e7e7e7;
+	display: inline-block;
+	font-size: 2.5em;
+	height: 75px;
+	width: 75px;
+	margin: 50px 100px;
+	padding: 15px;
+}
+
 
 
 
