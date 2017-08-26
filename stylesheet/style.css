@@ -177,10 +177,10 @@ input[type=submit]:hover {
 
 .dice-title {
 	display: inline-block;
-	font-size: 3em;
+	font-size: 2em;
 	position: absolute;
-	top: 100px; 
-	left: 390px; 
+	top: 105px; 
+	left: 415px; 
 }
 .game {
 	margin: auto;
@@ -302,10 +302,8 @@ input[type=submit]:hover {
 	left: 425px;
 }
 .dice-rules {
-	border: 1px solid blue;
-	height: 200px; 
-	width: 100%;
 	clear: both;
+	padding: 10px;
 }
 
 
