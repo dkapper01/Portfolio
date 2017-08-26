@@ -34,6 +34,7 @@ div {
 	position: absolute;
 	border-radius: 5px;
 	width: 100%; 
+	z-index: 1;
 }
 .navbar, .left {
 	float: left;
@@ -94,7 +95,7 @@ li.dropdown {
     border: 1px solid #e7e7e7;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    background-color: white;
 }
 
 .dropdown-content a {
@@ -178,7 +179,75 @@ input[type=submit]:hover {
 
 /* ============= Dice Game ==============*/
 
-.panel-0, .panel-1 {
+.game {
+	margin: auto;
+	overflow: hidden;
+	width: 854px;
+	margin-top: 150px; 
+	text-align: center;
+	border: 1px solid green; 
+}
+
+.player-0-panel, .player-1-panel {
+	height: 500px; 
+	width: 425px; 
+	background-color: red;
+	float: left;
+}
+.player-name {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px; 
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.playerpanel-1 {
 	background-color: gainsboro; 
 	border: 1px solid black;
 	height: 500px;
@@ -243,3 +312,4 @@ input[type=submit]:hover {
 }
 
 
+*/
