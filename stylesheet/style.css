@@ -188,6 +188,7 @@ input[type=submit]:hover {
 	width: 854px;
 	margin-top: 150px; 
 	text-align: center; 
+	position: fixed;
 }
 
 .player-0-panel, .player-1-panel {
