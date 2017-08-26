@@ -186,7 +186,7 @@ input[type=submit]:hover {
 
 .player-0-panel, .player-1-panel {
 	border-radius: 5px;
-	height: 500px; 
+	height: 580px; 
 	width: 425px; 
 	background-color: #e7e7e7;
 	float: left;
@@ -207,45 +207,82 @@ input[type=submit]:hover {
 	border: 1px solid #777777;
 	border-radius: 5px;
 	display: inline-block;
-	height: 125px; 
-	font-size: 5em;
-	width: 125px;
-	margin: 10px 100px;
+	height: 150px; 
+	font-size: 6em;
+	width: 150px;
+	margin: 30px 100px;
 	padding: 15px;
 }
 .current-box {
 	border: 1px solid #777777;
 	border-radius: 5px;
 	display: inline-block;
-	font-size: 2.5em;
-	height: 75px;
-	width: 75px;
+	font-size: 3em;
+	height: 100px;
+	width: 100px;
 	margin: 50px 100px;
-	padding: 15px;
+	padding: 20px;
 }
 .dice0 {
 	border: 1px solid black;
-	height: 100px; 
-	width: 100px; 
+	height: 120px; 
+	width: 120px; 
 	margin: 0px; 
 	padding: 0px;
 	position: absolute;
-	top: 300px;
-	right: 450px; 
+	top: 260px;
+	right: 440px; 
 }
 .dice1 {
 	border: 1px solid black;
-	height: 100px; 
-	width: 100px; 
+	height: 120px; 
+	width: 120px; 
 	margin: 0px; 
 	padding: 0px;
 	position: absolute;
-	top: 405px;
-	right: 450px;
+	top: 385px;
+	right: 440px;
 }
+#new-game-btn {
+	background-color: #5CB85C;
+	border: none;  
+	border-radius: 5px; 
+	color: white;
+	font-size: 1.5em;
+	padding: 12px; 
+	width: 150px;
+	margin: 0px;
+	position: absolute;
+	top: 165px;
+	left: 425px;
+}
+#roll-btn {
+	background-color: #5CB85C;
+	border: none;  
+	border-radius: 5px; 
+	color: white;
+	font-size: 1.5em;
+	padding: 12px 42px; 
+	width: 150px;
+	margin: 0px;
+	position: absolute;
+	top: 600px;
+	left: 425px;
 
-
-
+}
+#hold-btn {
+	background-color: #D9534F;
+	border: none;  
+	border-radius: 5px; 
+	color: white;
+	font-size: 1.5em;
+	margin: 0px;
+	padding: 12px 42px; 
+	width: 150px;
+	position: absolute;
+	top: 660px;
+	left: 425px;
+}
 
 
 
