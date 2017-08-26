@@ -183,12 +183,12 @@ input[type=submit]:hover {
 	left: 415px; 
 }
 .game {
-	margin: auto;
+	margin: 0px auto;
 	overflow: hidden;
 	width: 854px;
 	margin-top: 150px; 
 	text-align: center; 
-	position: fixed;
+	position: relative;
 }
 
 .player-0-panel, .player-1-panel {
@@ -197,6 +197,7 @@ input[type=submit]:hover {
 	width: 425px; 
 	background-color: #e7e7e7;
 	float: left;
+	/*position: absolute;*/
 }
 .active-player {
 	background-color: lightgreen;
@@ -241,8 +242,8 @@ input[type=submit]:hover {
 	width: 150px;
 	margin: 0px;
 	position: absolute;
-	top: 165px;
-	left: 425px;
+	top: 20px;
+	left: 350px;
 }
 .dice0 {
 	border: 1px solid black;
@@ -251,8 +252,8 @@ input[type=submit]:hover {
 	margin: 0px; 
 	padding: 0px;
 	position: absolute;
-	top: 260px;
-	right: 440px; 
+	top: 110px;
+	left: 365px; 
 }
 .dice1 {
 	border: 1px solid black;
@@ -261,17 +262,18 @@ input[type=submit]:hover {
 	margin: 0px; 
 	padding: 0px;
 	position: absolute;
-	top: 385px;
-	right: 440px;
+	top: 235px;
+	left: 365px;
 }
 #winning-score {
 	width: 150px; 
 	border-radius: 5px;
 	border: 1px solid gray; 
 	position: absolute;
-	top: 670px;
-	left: 425px;
+	top: 520px;
+	left: 350px;
 	text-align: center;
+	z-index: 1;
 }
 #roll-btn {
 	background-color: #5CB85C;
@@ -284,8 +286,8 @@ input[type=submit]:hover {
 	width: 150px;
 	margin: 0px;
 	position: absolute;
-	top: 540px;
-	left: 425px;
+	top: 390px;
+	left: 350px;
 
 }
 #hold-btn {
@@ -299,8 +301,8 @@ input[type=submit]:hover {
 	padding: 12px 42px; 
 	width: 150px;
 	position: absolute;
-	top: 600px;
-	left: 425px;
+	top: 448px;
+	left: 350px;
 }
 .dice-rules {
 	clear: both;
