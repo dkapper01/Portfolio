@@ -51,7 +51,6 @@ div {
 	background-color: #e7e7e7; 
 		/* Only need this broder-radius for the active home button */
 		border-radius: 0px 5px 0px px;
-
 }
 .right {
 	border-left: 1px solid #e7e7e7;
