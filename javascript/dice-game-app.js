@@ -1,9 +1,6 @@
 init(); 
-var roundScore = 0; 
-var score = [0,0]; 
-var activePlayer = 0; 
-var lastDice = 0; 
-var game = true; 
+
+var roundScore, score, activePlayer, lastDice, game; 
  
 
 document.querySelector('.roll-btn').addEventListener('click', function() {
@@ -61,8 +58,8 @@ function winner() {
 	document.querySelector('.dice0').style.display = 'none'; 
 	document.querySelector('.dice1').style.display = 'none'; 
 
-	document.querySelector('.player-0-panel').classList.remove('active-player');
-	document.querySelector('.player-1-panel').classList.remove('active-player');
+	document.querySelector('.player-0-panel').classList.add('active-player');
+	document.querySelector('.player-1-panel').classList.add('active-player');
 }
 
 function nextPlayer() {
@@ -89,7 +86,7 @@ function init() {
 	score = [0,0]; 
 	activePlayer = 0; 
 	lastDice = 0; 
-	game = true; 
+	game = true;  
 
 	document.querySelector('.player-0-panel').classList.add('active-player');
 	document.querySelector('.player-1-panel').classList.remove('active-player');

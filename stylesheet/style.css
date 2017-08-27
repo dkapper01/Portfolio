@@ -190,8 +190,9 @@ input[type=submit]:hover {
 	float: left;
 	/*position: absolute;*/
 }
-.winner-panel {
-	background-color: #D9534F;
+.active-player {
+	background-color: lightgreen;
+	border-radius: 5px;
 }
 .player-0-name, .player-1-name {
 	display: inline-block;
