@@ -26,6 +26,7 @@ div {
 	border: 1px solid #e7e7e7;
 	list-style-type: none; 
 	padding: 0px; 
+	height: auto;
 	margin: 10px 0px 10px 0px; 
 	position: absolute;
 	border-radius: 5px;
@@ -53,8 +54,18 @@ div {
 		border-radius: 0px 5px 0px px;
 }
 .right {
-	border-left: 1px solid #e7e7e7;
+	/*border-left: 1px solid #e7e7e7;*/
 	float: right;
+}
+a.right {
+	padding: 10px !important;
+	height: 40px;
+}
+.fa {
+	/**/
+}
+.fa-github {
+	color: black;
 }
 @media screen and (max-width: 600px){
     .left {
