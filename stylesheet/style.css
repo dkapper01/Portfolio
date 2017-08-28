@@ -58,12 +58,11 @@ div {
 	float: right;
 }
 a.right {
-	padding: 10px !important;
+	padding-top: 13px !important;
 	height: 40px;
+	width: 50px !important;
 }
-.fa {
-	/**/
-}
+
 .fa-github {
 	color: black;
 }
