@@ -119,18 +119,18 @@ li.dropdown {
     display: block;
  }
 
-/* ====================== Home Page ================*/
+/* ====================== About Page ================*/
 
 #daniel {
 	box-shadow: 3px 3px 5px gray;
 	border-left: 1px solid black;
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
-	float: right;
+	float: left;
 	margin: 100px 0px 0px 20px; 
 }
 .intro {
-	float: left;
+	float: right;
 	margin: 100px 0px; 
 	height: 400px;
 	padding: 15px;
