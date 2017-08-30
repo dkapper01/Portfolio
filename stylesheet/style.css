@@ -144,25 +144,26 @@ li.dropdown {
 /*---------- Contact Page -----------*/
 
 .flex-container {
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 90px; 
 }
 
 .header {
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	text-align: center;
 	height: 150px; 
 	width: 100%;
 }
 .contact-form {
-	/*border: 1px solid red;*/
-	width: 60%;  
+	border: 1px solid red;
+	width: 40%;  
 	padding-left: 20px; 
 }
 .footer {
-	/*border: 1px solid green;*/
+	width: 60%; 
+	border: 1px solid green;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
