@@ -303,7 +303,7 @@ input[type=submit]:hover {
 	left: 365px;
 }
 .winning-score {
-	width: 150px; 
+	width: 150px !important;
 	border-radius: 5px;
 	border: 1px solid gray; 
 	position: absolute;
