@@ -31,6 +31,15 @@ document.querySelector('.roll-btn').addEventListener('click', function() {
 		nextPlayer();
 	}
 });
+//  enter winning score start
+
+function getInput(event) {
+	if(event.keyCode == 13) {
+		var userScore = document.getElementById('user_score')
+		console.log(userScore); 
+		console.log("Dan the man"); 
+	}
+}
 
 document.querySelector('.hold-btn').addEventListener('click', function() { 
 
