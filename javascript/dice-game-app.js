@@ -39,7 +39,7 @@ document.querySelector('.hold-btn').addEventListener('click', function() {
 		document.getElementById('player-' + activePlayer + '-score').textContent = score[activePlayer]; 
 		document.querySelector('.player-' + activePlayer + '-round-score').textContent = '0'; 
 
-		if(score[activePlayer] > 20) {
+		if(score[activePlayer] > 100) {
 
 			if(activePlayer === 0) {
 				document.querySelector('.player-0-name').textContent = 'Winner';
