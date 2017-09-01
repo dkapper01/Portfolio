@@ -345,8 +345,16 @@ input[type=submit]:hover {
 	clear: both;
 	padding: 10px;
 }
-
-
+/**********************************************
+**** Template 
+***********************************************/
+.flex-container {
+	border: 1px solid cornflowerblue;
+	display: -webkit-flex; 
+	display: flex;
+	width: 1000px; 
+	margin: 0px auto;
+}
 
 
 
