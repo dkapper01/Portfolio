@@ -1,16 +1,29 @@
 
-.container-flex {
+.container-1, div {
+		border: 1px solid black;
+}
+
+.nav {
+	border: 1px solid black;
+}
+.footer {
+	border: 1px solid black;
+}
+
+.box-1 {
+	background-color: red;
+	flex: 1;
+}
+.box-2 {
+	flex: 1; 
+}
+.container-1 > *{
+	flex: 1 100%;
+}
+
+@media(min-width: 1000px) {
+	.container-1{
 	display: flex;
 }
-nav{
-	background-color: coral;
-}
-header {
-	background-color: lightgreen; 
-}
-footer {
-	background-color: moccasin;
-}
-.main {
-	background-color: violet;
+
 }
