@@ -1,6 +1,7 @@
 
 .container-1, div {
 		border: 1px solid black;
+		text-align: center;
 }
 
 .nav {
@@ -17,13 +18,14 @@
 .box-2 {
 	flex: 1; 
 }
-.container-1 > *{
+/*.container-1 > *{
 	flex: 1 100%;
-}
+}*/
 
 @media(min-width: 1000px) {
 	.container-1{
 	display: flex;
+	justify-content: space-around;
 }
 
 }
