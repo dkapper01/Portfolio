@@ -1,0 +1,16 @@
+
+.container-flex {
+	display: flex;
+}
+nav{
+	background-color: coral;
+}
+header {
+	background-color: lightgreen; 
+}
+footer {
+	background-color: moccasin;
+}
+.main {
+	background-color: violet;
+}
