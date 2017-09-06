@@ -1,3 +1,5 @@
+@import "compass/css3"
+
 body{
 	margin: 0px; padding: 0px;
 }
@@ -14,8 +16,36 @@ h2 {
 	flex-flow: row wrap; 
 	justify-content: center;
 }
+/* navigation */
+.navigation, .left, .right {
+	background-color: lightgray;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	width: 970px;
+}
+.left {
+	float: left;
+	justify-content: flex-start;
+
+}
+.right {
+	float: right;
+	justify-content: flex-end;
+}
+.navigation a {
+	display: block;
+	background-color: lightgray;
+	color: black;
+	padding: 15px;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: red;
+}
+/**/
 .intro {
-	/*height: 150px;*/
 	width: 970px;
 	padding: 20px;
 	text-align: center;
