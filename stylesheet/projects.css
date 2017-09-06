@@ -1,26 +1,22 @@
 body{
 	margin: 0px; padding: 0px;
 }
-.wrapper {
+.flex-container {
 	max-width: 970px; 
 	margin: 0px auto;
-	background-color: coral; 
-}
 
-.flex-container {
 	display: -webkit-flex; 
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap; 
 	justify-content: center;
 }
-.title {
+.intro {
 	height: 150px;
 	width: 970px;
 	background-color: violet;
 }
-.project-box {
-	background-color: lightgreen; 
+.projects {
 	margin: 20px; 
 	height: 230px; 
 	width: 360px; 
@@ -34,25 +30,5 @@ body{
 		display: flex;
 		flex-flow: column wrap;
 	}
-}
-.row1 {
-	/*margin-left: 500px;*/
-}
-.item1 { 
-	/*align-self: flex-start;*/
-}
-.item2 {
-	/*align-self: flex-end;*/
-}
-.item3 {
-	
-}
-.item3 {
-	
-}
-.footer {
-	background-color: violet;
-	width: 970px; 
-	height: 150px;
 }
 
