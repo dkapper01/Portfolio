@@ -2,7 +2,7 @@ body{
 	margin: 0px; padding: 0px;
 }
 .wrapper {
-	width: 970px; 
+	max-width: 970px; 
 	margin: 0px auto;
 	background-color: coral; 
 }
@@ -10,10 +10,9 @@ body{
 .flex-container {
 	display: -webkit-flex; 
 	display: flex;
+	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap; 
 	justify-content: center;
-
-
 }
 .title {
 	height: 150px;
@@ -25,6 +24,17 @@ body{
 	margin: 20px; 
 	height: 230px; 
 	width: 360px; 
+	justify-content: space-around;
+}
+
+@media screen and (max-width: 600px){ 
+	.flex-container {
+		display: -webkit-flex;
+		-webkit-flex-flow: row wrap;
+		display: flex;
+		flex-flow: column wrap;
+
+	}
 }
 .row1 {
 	/*margin-left: 500px;*/
