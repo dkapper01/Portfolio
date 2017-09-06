@@ -33,7 +33,6 @@ body{
 		-webkit-flex-flow: row wrap;
 		display: flex;
 		flex-flow: column wrap;
-
 	}
 }
 .row1 {
