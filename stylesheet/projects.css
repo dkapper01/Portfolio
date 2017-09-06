@@ -23,30 +23,58 @@ h2 {
 	list-style: none;
 	margin: 0;
 	padding: 0px;
-	width: 970px;
+	width: 100%;
 }
+
 .left {
 	float: left;
 	justify-content: flex-start;
-
+}
+.left a {
+	/*height: 45px;*/
+	width: 90px;
+	/*margin: 15px 0px 15px 0px; */
+	text-align: center;
+}
+.left-borderline {
+	border-right: 1px solid red;
+	height: 50px;
+	line-height: 50px;
+	/*margin: auto 0px auto 0px;*/
 }
 .right {
 	float: right;
 	justify-content: flex-end;
 }
+.right a {
+	/*border-left: 1px solid red;*/
+	height: 45px; 
+	width: 70px; 
+	text-align: center;
+}
 .navigation a {
 	display: block;
-	background-color: lightgray;
+	background-color: lightblue;
 	color: black;
 	padding: 15px;
 	text-decoration: none;
+	padding: 0px;
 }
 .navigation a:hover {
 	color: red;
 }
+/*@media all and (min-width: 900px){ 
+	.left {
+		justify-content: flex-end;
+	}
+	.right {
+		justify-content: flex-start;
+	}
+}*/
+
 /**/
 .intro {
-	width: 970px;
+	width: 100%;
 	padding: 20px;
 	text-align: center;
 	background-color: violet;
@@ -61,12 +89,5 @@ h2 {
 	justify-content: space-around;
 }
 
-@media screen and (max-width: 600px){ 
-/*	.flex-container {
-		display: -webkit-flex;
-		-webkit-flex-flow: row wrap;
-		display: flex;
-		flex-flow: column wrap;
-	}
-*/}
+
 
