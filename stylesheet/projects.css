@@ -1,12 +1,13 @@
-@import "compass/css3"
-
-body{
-	margin: 0px; padding: 0px;
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-h2 {
+body {
 	margin: 0px; 
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif; 
 }
-
 img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -14,18 +15,19 @@ img:hover {
 .flex-container {
 	max-width: 970px; 
 	margin: 0px auto;
-
 	display: -webkit-flex; 
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap; 
 	justify-content: center;
 }
-/* navigation */
+/************************************************
+navigation 
+*************************************************/
 .navigation {
 	border-radius: 5px; 
-	background-color: gray;
-	/*border: 1px solid red; */
+	background-color: #f8f8f8;
+	border: 1px solid #e7e7e7;
 }
 .navigation, .left, .right {
 	display: flex;
@@ -36,8 +38,6 @@ img:hover {
 }
 .left li:nth-child(1) {
 	border-radius: 5px 0px 0px 5px;
-	color: blue;
-	background-color: green;
 }
 .left li:nth-child(1) a:hover {
 	border-radius: 5px 0px 0px 5px;
@@ -62,7 +62,7 @@ img:hover {
 	text-align: center;
 }
 .left-list {
-	border-right: 1px solid red;
+	border-right: 1px solid #e7e7e7;
 	height: 60px;
 	line-height: 60px;
 }
@@ -75,7 +75,7 @@ img:hover {
 	text-align: center;
 }
 .right-list {
-	border-left: 1px solid red; 
+	border-right: 1px solid #e7e7e7; 
 	height: 60px;
 	line-height: 60px; 
 }
@@ -97,6 +97,11 @@ img:hover {
 	.right a {
 		width: 100%;
 	}
+}
+
+.active {
+	background-color: #e7e7e7; 
+	border-radius: 0px 5px 0px px;
 }
 
 /**/
