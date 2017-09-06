@@ -13,13 +13,14 @@ img:hover {
 }
 
 .flex-container {
-	max-width: 970px; 
+	max-width: 980px; 
 	margin: 0px auto;
 	display: -webkit-flex; 
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap; 
 	justify-content: center;
+	margin-top: 10px;
 }
 /************************************************
 navigation 
@@ -41,16 +42,14 @@ navigation
 }
 .left li:nth-child(1) a:hover {
 	border-radius: 5px 0px 0px 5px;
-	color: blue;
 }
 .navigation a {
 	display: block;
-	color: black;
+	color: #777777;
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: red;
-	background-color: lightgray;
+	color: #585858;
 }
 
 .left {
@@ -63,8 +62,8 @@ navigation
 }
 .left-list {
 	border-right: 1px solid #e7e7e7;
-	height: 60px;
-	line-height: 60px;
+	height: 55px;
+	line-height: 55px;
 }
 .right {
 	float: right;
@@ -76,12 +75,11 @@ navigation
 }
 .right-list {
 	border-right: 1px solid #e7e7e7; 
-	height: 60px;
-	line-height: 60px; 
+	height: 55px;
+	line-height: 55px; 
 }
 .right li:nth-last-child(1) a:hover {
 	border-radius: 0px 5px 5px 0px;
-	color: blue;
 }
 
 @media all and (max-width: 740px){ 
@@ -109,7 +107,7 @@ navigation
 	width: 100%;
 	padding: 20px;
 	text-align: center;
-	background-color: violet;
+	/*background-color: violet;*/
 }
 .intro h2 {
 	align-items: center;
