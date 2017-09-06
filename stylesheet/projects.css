@@ -1,6 +1,9 @@
 body{
 	margin: 0px; padding: 0px;
 }
+h2 {
+	margin: 0px; 
+}
 .flex-container {
 	max-width: 970px; 
 	margin: 0px auto;
@@ -12,9 +15,14 @@ body{
 	justify-content: center;
 }
 .intro {
-	height: 150px;
+	/*height: 150px;*/
 	width: 970px;
+	padding: 20px;
+	text-align: center;
 	background-color: violet;
+}
+.intro h2 {
+	align-items: center;
 }
 .projects {
 	margin: 20px; 
@@ -24,11 +32,11 @@ body{
 }
 
 @media screen and (max-width: 600px){ 
-	.flex-container {
+/*	.flex-container {
 		display: -webkit-flex;
 		-webkit-flex-flow: row wrap;
 		display: flex;
 		flex-flow: column wrap;
 	}
-}
+*/}
 
