@@ -68,13 +68,14 @@ navigation
 .right {
 	float: right;
 	justify-content: flex-end;
+	align-items: center;
 }
 .right a {
-	width: 60px; 
+	width: 50px; 
 	text-align: center;
 }
 .right-list {
-	border-right: 1px solid #e7e7e7; 
+	padding-top: 12px;
 	height: 55px;
 	line-height: 55px; 
 }
@@ -88,18 +89,35 @@ navigation
 	}
 	.left a {
 		width: 100%;
+		border-bottom: 1px solid #e7e7e7;
 	}
 	.right {
 		flex-flow: column nowrap;
 	}
 	.right a {
 		width: 100%;
+		border-bottom: 1px solid #e7e7e7;
 	}
 }
 
 .active {
 	background-color: #e7e7e7; 
 	border-radius: 0px 5px 0px px;
+}
+.fa-github-square {
+	color: black;
+}
+.fa-facebook-official {
+    color: #3b5998
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-twitter-square {
+    color: #00aced
+}
+.fa-linkedin-square {
+    color: #007bb6
 }
 
 /**/
@@ -113,11 +131,18 @@ navigation
 	align-items: center;
 }
 .projects {
-	margin: 20px; 
-	height: 230px; 
-	width: 360px; 
-	justify-content: space-around;
+	/*border: 1px solid red;*/
+	/*padding: 10px;*/
+	/*margin: 20px; */
+	/*height: 230px; */
+	/*width: 360px; */
+	/*justify-content: space-between;*/
 }
-
-
+.project-left {
+	/*justify-content: space-between;*/
+}
+.project-right {
+	/*justify-content: space-between;*/
+}
+.
 
