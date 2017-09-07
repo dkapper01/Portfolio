@@ -1,4 +1,4 @@
-* {
+/** {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 	font-family: 'Open Sans', sans-serif; 
 }
 div {
-	/*border: solid 1px blue;*/
+	border: solid 1px blue; 
 }
 .container {
 	max-width: 1000px;
@@ -18,9 +18,9 @@ div {
 	overflow: hidden;
 	height: 5000px;
 	position: relative;
-}
+}*/
 /* ------- Navigation Bar ---------- */
-
+/*
 .navbar {
 	background-color: #f8f8f8;
 	border: 1px solid #e7e7e7;
@@ -50,11 +50,10 @@ div {
 }
 .active {
 	background-color: #e7e7e7; 
-	/* Only need this broder-radius for the active home button */
 	border-radius: 0px 5px 0px px;
 }
 .right {
-	/*border-left: 1px solid #e7e7e7;*/
+
 	float: right;
 }
 a.right {
@@ -96,7 +95,7 @@ a.right {
     text-align: center !important;
 }
 li.dropdown {
-    /*display: inline-block;*/
+   
 }
 .width {
 	width: 200px !important;
@@ -117,40 +116,19 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
- }
+ }*/
 
-/* ====================== About Page ================*/
 
-#daniel {
-	box-shadow: 3px 3px 5px gray;
-	border-radius: 50%;
-	/*border-left: 1px solid black;*/
-	/*border-bottom: 1px solid black;*/
-	/*border-right: 1px solid black;*/
-	float: left;
-	margin: 120px 0px 0px 20px; 
-}
-.intro {
-	float: right;
-	margin: 90px 0px; 
-	height: 400px;
-	padding: 15px;
-	width: 600px;
-}
-.box {
-	clear: both;
-	height: 150px; 
-}
 
 /*---------- Contact Page -----------*/
-
+/*
 .flex-container {
-	/*border: 1px solid blue;*/
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 90px; 
-}
+}*/
 
 .header {
 	background-color: #f2f2f2;

@@ -1,0 +1,23 @@
+/* ====================== About Page ================*/
+
+.daniel {
+	box-shadow: 3px 3px 5px gray;
+	border-radius: 50%;
+	margin: 0;
+}
+.picture-box {
+	width: 260px;
+	/*border: 1px solid green;*/
+}
+.about-me {
+	width: 600px; 
+	/*border: 1px solid blue;*/
+	text-align: left;
+}
+.intro {
+	width: 980px;
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}

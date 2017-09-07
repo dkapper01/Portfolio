@@ -42,8 +42,8 @@ navigation
 	line-height: 55px;
 }
 .right {
-	float: right;
-	justify-content: flex-end;
+	justify-content: flex-start;
+	flex-direction: row-reverse;
 	align-items: center;
 }
 .right a {
@@ -80,17 +80,32 @@ navigation
 	background-color: #e7e7e7; 
 	border-radius: 0px 5px 0px px;
 }
+.fa-github-square:hover {
+	opacity: 0.3;
+}
 .fa-github-square {
 	color: black;
+}
+.fa-facebook-official:hover {
+    opacity: 0.3;
 }
 .fa-facebook-official {
     color: #3b5998
 }
+.fa-instagram:hover {
+    opacity: 0.3; 
+}
 .fa-instagram {
     color: #517fa4;
 }
+.fa-twitter-square:hover {
+    opacity: 0.3; 
+}
 .fa-twitter-square {
     color: #00aced
+}
+.fa-linkedin-square:hover {
+    opacity: 0.3;
 }
 .fa-linkedin-square {
     color: #007bb6
