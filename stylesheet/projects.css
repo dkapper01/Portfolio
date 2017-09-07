@@ -93,10 +93,10 @@ navigation
 	}
 	.right {
 		flex-flow: column nowrap;
+		border-bottom: 1px solid #e7e7e7;
 	}
 	.right a {
 		width: 100%;
-		border-bottom: 1px solid #e7e7e7;
 	}
 }
 
@@ -125,24 +125,24 @@ navigation
 	width: 100%;
 	padding: 20px;
 	text-align: center;
-	/*background-color: violet;*/
 }
 .intro h2 {
 	align-items: center;
 }
 .projects {
-	/*border: 1px solid red;*/
-	/*padding: 10px;*/
-	/*margin: 20px; */
-	/*height: 230px; */
-	/*width: 360px; */
-	/*justify-content: space-between;*/
+	justify-content: space-around;
+	display: flex;
+	flex-flow: row wrap;
+	width: 980px; 
+}
+@media all and (max-width: 800px){ 
+	
 }
 .project-left {
-	/*justify-content: space-between;*/
+
 }
 .project-right {
-	/*justify-content: space-between;*/
+	
 }
 .
 
