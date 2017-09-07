@@ -1,19 +1,35 @@
 
+h3 {
+	display: inline-block;
+}
+p {
+	display: inline-block;
+}
+.contact-box {
+	display: flex;
+	flex-flow: wrap row;
+	margin-top: 50px;
+	width: 980px;
+	justify-content: space-around;
+}
 .header {
 	background-color: #f2f2f2;
-	/*color: #777777;*/
 	border-radius: 5px; 
-	/*border: 1px solid black;*/
-	text-align: center;
-	height: 100px; 
-	width: 100%;
-	margin-bottom: 20px; 
+	text-align: left;
+	/*height: 100px; */
+	width: 400px;
+	/*margin-bottom: 20px;*/ 
+	order: 1;
+	padding: 20px;
 }
+
 .contact-form {
-	/*border: 1px solid red;*/
-	width: 40%;  
-	margin-right: 10px; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 450px;
 }
+
 .footer {
 	width: 50%; 
 	padding-left: 10px; 
@@ -50,8 +66,4 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.contact-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
+
