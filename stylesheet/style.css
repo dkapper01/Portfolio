@@ -123,9 +123,10 @@ li.dropdown {
 
 #daniel {
 	box-shadow: 3px 3px 5px gray;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
+	border-radius: 50%;
+	/*border-left: 1px solid black;*/
+	/*border-bottom: 1px solid black;*/
+	/*border-right: 1px solid black;*/
 	float: left;
 	margin: 120px 0px 0px 20px; 
 }
