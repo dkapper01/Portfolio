@@ -2,6 +2,12 @@
 img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+img {
+	margin-top: 15px;
+}
+#kiwi-border {
+	border: 1px solid gray;
+}
 .intro {
 	width: 100%;
 	padding: 20px;

@@ -7,8 +7,8 @@ p {
 }
 .contact-box {
 	display: flex;
-	flex-flow: wrap row;
-	margin-top: 50px;
+	flex-flow: row wrap;
+	margin-top: 20px;
 	width: 980px;
 	justify-content: space-around;
 }
