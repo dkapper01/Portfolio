@@ -6,35 +6,32 @@ p {
 	display: inline-block;
 }
 .contact-box {
-	display: flex;
-	flex-flow: row wrap;
-	margin-top: 20px;
-	width: 980px;
 	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%; 
+	/*margin-top: 30px;*/
 }
 .header {
 	background-color: #f2f2f2;
 	border-radius: 5px; 
 	text-align: left;
-	/*height: 100px; */
-	width: 400px;
-	/*margin-bottom: 20px;*/ 
+	width: 420px;
 	order: 1;
 	padding: 20px;
+	margin-top: 30px;
 }
 
 .contact-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 450px;
+    width: 420px;
+    margin-top: 30px;
 }
 
-.footer {
-	width: 50%; 
-	padding-left: 10px; 
-	/*border: 1px solid green;*/
-}
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
