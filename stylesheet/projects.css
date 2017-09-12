@@ -2,10 +2,7 @@
 p {
 	margin: 0px;
 }
-.flex-container {
-	font-family: 'Playfair Display', serif;
-font-family: 'Indie Flower', cursive;
-}
+
 .project-wrapper {
 	height: auto;
 	width: auto; 
@@ -18,13 +15,16 @@ font-family: 'Indie Flower', cursive;
 	text-align: center;
 
 }
+.live-site {
+
+}
 .project-img {
 	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.54);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.54);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.54);
-	/*margin: 10px;*/
 	border: 1px solid black;
 	border-radius: 3%;
+	/*display: none;*/
 }
 img {
 	border-radius: 3%;
@@ -38,7 +38,8 @@ img {
 	width: 100%;
 	padding: 20px;
 	text-align: center;
-	font-size: 220%;
+	font-size: 200%;
+	margin: 0px;
 }
 .projects {
 	justify-content: space-around;

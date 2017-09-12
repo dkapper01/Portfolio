@@ -1,4 +1,7 @@
 
+body {
+	overflow: scroll;
+}
 h3 {
 	display: inline-block;
 }
