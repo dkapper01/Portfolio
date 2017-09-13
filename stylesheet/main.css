@@ -6,8 +6,7 @@
 body {
 	margin: 0; 
 	padding: 0;
-	font-family: 'Playfair Display', serif;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 .flex-container {
 	max-width: 980px; 
