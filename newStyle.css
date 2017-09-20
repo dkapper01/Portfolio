@@ -22,9 +22,9 @@ nav {
           color: white;
           display: block;
           font-size: 1.2em;
-          line-height: 3.5em;
+          line-height: 3em;
           width: 7em;
-          height: 3.5em;
+          height: 3em;
           text-align: center;
           text-decoration: none; }
         nav .wrapper ul li a:hover:not(.active) {
