@@ -16,6 +16,7 @@ p {
 }
 .project-img a:hover {
 	opacity: 0;
+	border: none !important;
 }
 .project-img { 
 	/*-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.54);
@@ -25,11 +26,12 @@ p {
     background-image: url("../img/live-site.png");
     background-repeat: no-repeat;
     background-position: center;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 	border-radius: 3%;
 }
 img {
 	border-radius: 3%;
+	border: 1px solid gray;
 }
 .project-lang {
 	color: #f45c42;
