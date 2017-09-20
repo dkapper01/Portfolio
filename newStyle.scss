@@ -15,25 +15,33 @@ nav {
 		list-style-type: none;
 		width: 100%; 
 		overflow: hidden;
-
 		li {
 			float: left;
 			a {
 				color: white; 
 				display: block;
-				line-height: 60px;
-				width: 100px;
-				height: 60px; 
+				line-height: 4em;
+				width: 7em;
+				height: 4em; 
 				text-align: center;
 				text-decoration: none;
 			}	
 			a:hover:not(.active) {
 				background-color: $secondary-blue;
 			}
+			a.active {
+				background-color: $primary-gray;
+			}
+		}
+		@media screen and (max-width: 600px) {
+			li {
+				float: none;
+				a {
+					width: 100%;
+				}
+			}
 		}
 	}
 }
 
-.active {
-	background-color: $primary-gray;
-}
+
