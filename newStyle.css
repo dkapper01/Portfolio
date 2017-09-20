@@ -1,3 +1,4 @@
+/*$secondary-gray: #95a5a6;*/
 * {
   margin: 0;
   padding: 0; }
@@ -23,7 +24,7 @@ nav {
           display: block;
           font-size: 1.2em;
           line-height: 3em;
-          width: 7em;
+          width: 6em;
           height: 3em;
           text-align: center;
           text-decoration: none; }
@@ -36,5 +37,13 @@ nav {
           float: none; }
           nav .wrapper ul li a {
             width: 100%; } }
+
+.container .introduction {
+  height: 30em; }
+.container .projects {
+  background-color: #ecf0f1;
+  height: 60em; }
+.container .contact {
+  border: 1px solid blue; }
 
 /*# sourceMappingURL=newStyle.css.map */
