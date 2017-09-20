@@ -2,29 +2,39 @@
   margin: 0;
   padding: 0; }
 
-nav ul {
-  background-color: #2c3e50;
-  list-style-type: none;
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+nav {
   width: 100%;
-  overflow: hidden; }
-  nav ul li {
-    float: left; }
-    nav ul li a {
-      color: white;
-      display: block;
-      line-height: 4em;
-      width: 7em;
-      height: 4em;
-      text-align: center;
-      text-decoration: none; }
-    nav ul li a:hover:not(.active) {
-      background-color: #34495e; }
-    nav ul li a.active {
-      background-color: #7f8c8d; }
-  @media screen and (max-width: 600px) {
-    nav ul li {
-      float: none; }
-      nav ul li a {
-        width: 100%; } }
+  background-color: #2c3e50; }
+  nav .wrapper {
+    width: 1000px;
+    margin: 0 auto; }
+    nav .wrapper ul {
+      background-color: #2c3e50;
+      list-style-type: none;
+      width: 100%;
+      overflow: hidden; }
+      nav .wrapper ul li {
+        float: left; }
+        nav .wrapper ul li a {
+          color: white;
+          display: block;
+          font-size: 1.2em;
+          line-height: 3.5em;
+          width: 7em;
+          height: 3.5em;
+          text-align: center;
+          text-decoration: none; }
+        nav .wrapper ul li a:hover:not(.active) {
+          background-color: #34495e; }
+        nav .wrapper ul li a.active {
+          background-color: #7f8c8d; }
+      @media screen and (max-width: 600px) {
+        nav .wrapper ul li {
+          float: none; }
+          nav .wrapper ul li a {
+            width: 100%; } }
 
 /*# sourceMappingURL=newStyle.css.map */

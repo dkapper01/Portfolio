@@ -6,38 +6,45 @@ $secondary-gray: #95a5a6;
 * { margin: 0; padding: 0; }
 
 body {
-
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav {
-	ul {
+	width: 100%; 
+	background-color: $primary-blue;
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+		ul {
 		background-color: $primary-blue; 
 		list-style-type: none;
 		width: 100%; 
 		overflow: hidden;
-		li {
-			float: left;
-			a {
-				color: white; 
-				display: block;
-				line-height: 4em;
-				width: 7em;
-				height: 4em; 
-				text-align: center;
-				text-decoration: none;
-			}	
-			a:hover:not(.active) {
-				background-color: $secondary-blue;
-			}
-			a.active {
-				background-color: $primary-gray;
-			}
-		}
-		@media screen and (max-width: 600px) {
 			li {
-				float: none;
+				float: left;
 				a {
-					width: 100%;
+					color: white; 
+					display: block;
+					font-size: 1.2em;
+					line-height: 3.5em;
+					width: 7em;
+					height: 3.5em; 
+					text-align: center;
+					text-decoration: none;
+				}	
+				a:hover:not(.active) {
+					background-color: $secondary-blue;
+				}
+				a.active {
+					background-color: $primary-gray;
+				}
+			}
+			@media screen and (max-width: 600px) {
+				li {
+					float: none;
+					a {
+						width: 100%;
+					}
 				}
 			}
 		}
