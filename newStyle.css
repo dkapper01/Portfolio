@@ -64,8 +64,44 @@ nav {
     width: 100%;
     background-color: #ecf0f1; }
     .flex-container .projects-wrapper .projects {
-      background-color: #ecf0f1;
-      height: 60em; }
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      width: 1000px;
+      border: 1px solid red;
+      height: 60em;
+      margin: 0 auto; }
+      .flex-container .projects-wrapper .projects .project {
+        /* entire container, keeps perspective */
+        /* flip the pane when hovered */
+        /* flip speed goes here */
+        /* hide back of pane during swap */
+        /* front pane, placed above back */
+        /* back, initially hidden pane */ }
+        .flex-container .projects-wrapper .projects .project .flip-container {
+          perspective: 1000px; }
+        .flex-container .projects-wrapper .projects .project .flip-container:hover .flipper, .flex-container .projects-wrapper .projects .project .flip-container.hover .flipper {
+          transform: rotateY(180deg); }
+        .flex-container .projects-wrapper .projects .project .flip-container, .flex-container .projects-wrapper .projects .project .front, .flex-container .projects-wrapper .projects .project .back {
+          width: 320px;
+          height: 480px; }
+        .flex-container .projects-wrapper .projects .project .flipper {
+          transition: 0.6s;
+          transform-style: preserve-3d;
+          position: relative; }
+        .flex-container .projects-wrapper .projects .project .front, .flex-container .projects-wrapper .projects .project .back {
+          backface-visibility: hidden;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .flex-container .projects-wrapper .projects .project .front {
+          z-index: 2;
+          /* for firefox 31 */
+          transform: rotateY(0deg);
+          background-color: red; }
+        .flex-container .projects-wrapper .projects .project .back {
+          transform: rotateY(180deg);
+          background-color: blue; }
   .flex-container .contact {
     border: 1px solid blue;
     height: 60em; }
