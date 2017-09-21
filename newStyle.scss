@@ -9,13 +9,12 @@ $light-gray: #ecf0f1;
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
 nav {
 	width: 100%; 
 	background-color: $primary-blue;
-	.navigation-wrapper {
+/*	.navigation-wrapper {
 		width: 1000px;
-		margin: 0 auto;
+		margin: 0 auto;*/
 		ul {
 		background-color: $primary-blue; 
 		list-style-type: none;
@@ -49,12 +48,11 @@ nav {
 				}
 			}
 		}
-	}
+	/*}*/
 }
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
-
 	.introduction {
 		display: flex;
 		flex-flow: row wrap;
@@ -68,7 +66,7 @@ nav {
 			font-size: 1.2em;
 			width: 100%;
 			h2 {
-				margin-bottom: 15px;
+				margin-bottom: 10px;
 			}
 		}
 		.my-image {

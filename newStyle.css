@@ -8,35 +8,36 @@ body {
 
 nav {
   width: 100%;
-  background-color: #2c3e50; }
-  nav .navigation-wrapper {
-    width: 1000px;
-    margin: 0 auto; }
-    nav .navigation-wrapper ul {
-      background-color: #2c3e50;
-      list-style-type: none;
-      width: 100%;
-      overflow: hidden; }
-      nav .navigation-wrapper ul li {
-        float: left; }
-        nav .navigation-wrapper ul li a {
-          color: white;
-          display: block;
-          font-size: 1.2em;
-          line-height: 3em;
-          width: 6em;
-          height: 3em;
-          text-align: center;
-          text-decoration: none; }
-        nav .navigation-wrapper ul li a:hover:not(.active) {
-          background-color: #34495e; }
-        nav .navigation-wrapper ul li a.active {
-          background-color: #7f8c8d; }
-      @media screen and (max-width: 600px) {
-        nav .navigation-wrapper ul li {
-          float: none; }
-          nav .navigation-wrapper ul li a {
-            width: 100%; } }
+  background-color: #2c3e50;
+  /*	.navigation-wrapper {
+  		width: 1000px;
+  		margin: 0 auto;*/
+  /*}*/ }
+  nav ul {
+    background-color: #2c3e50;
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden; }
+    nav ul li {
+      float: left; }
+      nav ul li a {
+        color: white;
+        display: block;
+        font-size: 1.2em;
+        line-height: 3em;
+        width: 6em;
+        height: 3em;
+        text-align: center;
+        text-decoration: none; }
+      nav ul li a:hover:not(.active) {
+        background-color: #34495e; }
+      nav ul li a.active {
+        background-color: #7f8c8d; }
+    @media screen and (max-width: 600px) {
+      nav ul li {
+        float: none; }
+        nav ul li a {
+          width: 100%; } }
 
 .flex-container {
   display: flex;
@@ -54,7 +55,7 @@ nav {
       font-size: 1.2em;
       width: 100%; }
       .flex-container .introduction .content h2 {
-        margin-bottom: 15px; }
+        margin-bottom: 10px; }
     .flex-container .introduction .my-image {
       order: 1; }
       .flex-container .introduction .my-image img {
