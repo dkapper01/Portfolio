@@ -4,41 +4,46 @@
   padding: 0; }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  overflow: scroll; }
 
-nav {
-  width: 100%;
-  background-color: #2c3e50;
-  /*	.navigation-wrapper {
-  		width: 1000px;
-  		margin: 0 auto;*/
-  /*}*/ }
-  nav ul {
-    background-color: #2c3e50;
-    list-style-type: none;
-    width: 100%;
-    overflow: hidden; }
-    nav ul li {
-      float: left; }
-      nav ul li a {
-        color: white;
-        display: block;
-        font-size: 1.2em;
-        line-height: 3em;
-        width: 6em;
-        height: 3em;
-        text-align: center;
-        text-decoration: none; }
-      nav ul li a:hover:not(.active) {
-        background-color: #34495e; }
-      nav ul li a.active {
-        background-color: #7f8c8d; }
-    @media screen and (max-width: 600px) {
-      nav ul li {
-        float: none; }
-        nav ul li a {
-          width: 100%; } }
-
+/*nav {
+	width: 100%; 
+	background-color: $primary-blue;
+		ul {
+		background-color: $primary-blue; 
+		list-style-type: none;
+		width: 100%; 
+		overflow: hidden;
+			li {
+				float: left;
+				a {
+					color: white; 
+					display: block;
+					font-size: 1.2em;
+					line-height: 3em;
+					width: 6em;
+					height: 3em; 
+					text-align: center;
+					text-decoration: none;
+				}	
+				a:hover:not(.active) {
+					background-color: $secondary-blue;
+				}
+				a.active {
+					background-color: $dark-gray;
+				}
+			}
+			@media screen and (max-width: 600px) {
+				li {
+					float: none;
+					a {
+						width: 100%;
+					}
+				}
+			}
+		}
+}*/
 .flex-container {
   display: flex;
   flex-flow: row wrap; }
@@ -62,14 +67,17 @@ nav {
         border-radius: 50%; }
   .flex-container .projects-wrapper {
     width: 100%;
-    background-color: #ecf0f1; }
+    background-color: #ecf0f1;
+    padding: 20px; }
+    .flex-container .projects-wrapper h1 {
+      text-align: center; }
     .flex-container .projects-wrapper .projects {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
       width: 1000px;
       padding: 20px;
-      height: 60em;
+      height: auto;
       margin: 0 auto; }
       .flex-container .projects-wrapper .projects .project {
         /* entire container, keeps perspective */
@@ -104,8 +112,9 @@ nav {
         .flex-container .projects-wrapper .projects .project .back {
           transform: rotateY(180deg);
           background-color: blue; }
-  .flex-container .contact {
-    border: 1px solid blue;
-    height: 60em; }
+
+.contact {
+  border: 1px solid blue;
+  height: 1000px; }
 
 /*# sourceMappingURL=newStyle.css.map */
