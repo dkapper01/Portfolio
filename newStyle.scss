@@ -4,10 +4,10 @@ $dark-gray: #7f8c8d;
 /*$secondary-gray: #95a5a6;*/
 $light-gray: #ecf0f1;
 
-* { margin: 0; padding: 0; }
+/** { margin: 0; padding: 0; }*/
 
 body {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+	padding-top: 70px; 
 	overflow: scroll;
 }
 /*nav {
@@ -47,6 +47,11 @@ body {
 			}
 		}
 }*/
+#content {
+	height: 50px; 
+	z-index: -1;
+	background-color: $light-gray;
+}
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -76,7 +81,7 @@ body {
 	.projects-wrapper {
 		width: 100%; 
 		background-color: $light-gray;
-		padding: 20px;
+		padding: 20px 20px 0px 20px;
 		h1 {
 			text-align: center;
 		}

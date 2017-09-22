@@ -1,10 +1,7 @@
 /*$secondary-gray: #95a5a6;*/
-* {
-  margin: 0;
-  padding: 0; }
-
+/** { margin: 0; padding: 0; }*/
 body {
-  /*font-family: 'Source Sans Pro', sans-serif;*/
+  padding-top: 70px;
   overflow: scroll; }
 
 /*nav {
@@ -44,6 +41,11 @@ body {
 			}
 		}
 }*/
+#content {
+  height: 50px;
+  z-index: -1;
+  background-color: #ecf0f1; }
+
 .flex-container {
   display: flex;
   flex-flow: row wrap; }
@@ -68,7 +70,7 @@ body {
   .flex-container .projects-wrapper {
     width: 100%;
     background-color: #ecf0f1;
-    padding: 20px; }
+    padding: 20px 20px 0px 20px; }
     .flex-container .projects-wrapper h1 {
       text-align: center; }
     .flex-container .projects-wrapper .projects {
