@@ -147,7 +147,8 @@ body {
 				/* back, initially hidden pane */
 				.back {
 					transform: rotateY(180deg);
-					background-color: blue;
+					color: white;
+					background-color: $primary-blue;
 				} 
 							}
 						}
