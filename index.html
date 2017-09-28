@@ -88,30 +88,48 @@
 						<!-- project -->
 					</div>
 					</div>
-				</div>
 			</div>
 			<div id="content"></div>
-		<div class="contact">
-			<h1>Contact</h1>
-			<div class="contact-box">
-			<div class="header">	
-				<h3>Name:&nbsp;</h3><p>Daniel Kapper</p><br>
-				<h3>Email:&nbsp;</h3><p>dkapper01@gmail.com</p><br>
-				<h3>Location:&nbsp;</h3><p>Washington DC</p>
-			</div>
+			
+		
 
-		<div class="contact-form">
-			<form action="https://formspree.io/dkapper01@gmail.com" method="post">
-					Your name:<br>
-				<input type="text" name="name"><br>
-					Your email:<br>
-				<input type="text" name="email"><br>
-					Your message:<br>
-				<textarea name="message" rows="8"></textarea><br>
-				<input type="submit" value="Send Message">
-			</form>
-		</div>
-		</div>
-	</div>
+
+<section class="contact">
+
+            <div class="container">
+            <h1>Contact</h1>
+<div class="row">
+<div class="col-sm-4">
+
+<!-- <hr> -->
+<address>
+<strong>Daniel:</strong> Daniel Kapper<br>
+<strong>Email:</strong> dkapper01@gmail.com<br>
+<strong>Location:</strong> Washington DC<br>
+</address>
+</div>
+    
+<div class="col-sm-8 contact-form">
+<form id="contact" method="post" class="form" role="form">
+<div class="row">
+<div class="col-xs-6 col-md-6 form-group">
+<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+</div>
+<div class="col-xs-6 col-md-6 form-group">
+<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+</div>
+</div>
+<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+<br />
+<div class="row">
+<div class="col-xs-12 col-md-12 form-group">
+<button class="btn btn-primary pull-right" type="submit">Submit</button>
+</form>
+</div>
+</div>
+        </section>
+
+
+	</body>
 </body>
 </html>
