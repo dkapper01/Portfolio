@@ -2,6 +2,7 @@ $primary-blue: #2c3e50;
 $secondary-blue: #34495e;
 $dark-gray: #7f8c8d;
 $light-gray: #ecf0f1;
+$red: #e74c3c;
 
 * { margin: 0; padding: 0;}
 
@@ -69,7 +70,7 @@ nav {
 			margin: 0 auto;
 				.project {
 					i {
-						color: #e74c3c; 
+						color: $red; 
 					}
 					/* entire container, keeps perspective */
 					.flip-container {
@@ -106,7 +107,7 @@ nav {
 						z-index: 2;
 						/* for firefox 31 */
 						transform: rotateY(0deg);
-						background-color: red;
+						/*border-radius: 5px;*/
 					}
 					/* back, initially hidden pane */
 					.back {
@@ -114,11 +115,19 @@ nav {
 						color: white;
 						background-color: $primary-blue;
 						/*text-align: center;*/
+						button {
+							border: none;
+						}
+						button:hover {
+							background-color: $red;
+							transition-duration: 0.4s;
+						}
 						.goLive {
 							background-color: $light-gray;
 							width: 250px; 
 							height: 75px; 
 							margin: 10px;
+							border-radius: 5px;
 							img {
 								border: none;
 							}
@@ -142,6 +151,6 @@ nav {
 		color: white;
 	}
 	small {
-		color: red;
+		color: $red;
 	}
 }
