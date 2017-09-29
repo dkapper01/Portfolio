@@ -113,6 +113,15 @@ nav {
 						transform: rotateY(180deg);
 						color: white;
 						background-color: $primary-blue;
+						.goLive {
+							background-color: $light-gray;
+							width: 250px; 
+							height: 75px; 
+							margin: 10px;
+							img {
+								border: none;
+							}
+						}
 					} 
 				}
 			}
