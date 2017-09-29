@@ -1,10 +1,9 @@
 $primary-blue: #2c3e50;
 $secondary-blue: #34495e;
 $dark-gray: #7f8c8d;
-/*$secondary-gray: #95a5a6;*/
 $light-gray: #ecf0f1;
 
-/** { margin: 0; padding: 0; }*/
+* { margin: 0; padding: 0; }
 
 body {
 	position: relative;
@@ -64,71 +63,63 @@ body {
 			padding: 20px 375px;
 			height: auto;
 			margin: 0 auto;
-
 				.project {
 					p {
 						color: #e74c3c; 
 					}
-									/* entire container, keeps perspective */
-				.flip-container {
-					perspective: 1000px;
-				}
-					/* flip the pane when hovered */
-					.flip-container:hover .flipper, .flip-container.hover .flipper {
-						transform: rotateY(180deg);
+					/* entire container, keeps perspective */
+					.flip-container {
+						perspective: 1000px;
 					}
-
-				.flip-container, .front, .back {
-					width: 400px;
-					height: 280px;
-				}
-
-				/* flip speed goes here */
-				.flipper {
-					transition: 0.6s;
-					transform-style: preserve-3d;
-
-					position: relative;
-				}
-
-				/* hide back of pane during swap */
-				.front, .back {
-					backface-visibility: hidden;
-
-					position: absolute;
-					top: 0;
-					left: 0;
-					img {
-						border: 1px solid $primary-blue;
+						/* flip the pane when hovered */
+						.flip-container:hover .flipper, .flip-container.hover .flipper {
+							transform: rotateY(180deg);
+						}
+					.flip-container, .front, .back {
+						width: 400px;
+						height: 280px;
 					}
-				}
+					/* flip speed goes here */
+					.flipper {
+						transition: 0.6s;
+						transform-style: preserve-3d;
 
-				/* front pane, placed above back */
-				.front {
-					z-index: 2;
-					/* for firefox 31 */
-					transform: rotateY(0deg);
-					background-color: red;
-				}
+						position: relative;
+					}
+					/* hide back of pane during swap */
+					.front, .back {
+						backface-visibility: hidden;
 
-				/* back, initially hidden pane */
-				.back {
-					transform: rotateY(180deg);
-					color: white;
-					background-color: $primary-blue;
-				} 
-							}
+						position: absolute;
+						top: 0;
+						left: 0;
+						img {
+							border: 1px solid $primary-blue;
 						}
 					}
-
-}
-
-	.contact {
-		height: 1000px;
-		width: 500px;
-		border: 1px solid red; 
-		padding: 0 20px 0 20px; 
-		h1 {
-			text-align: center;
+					/* front pane, placed above back */
+					.front {
+						z-index: 2;
+						/* for firefox 31 */
+						transform: rotateY(0deg);
+						background-color: red;
+					}
+					/* back, initially hidden pane */
+					.back {
+						transform: rotateY(180deg);
+						color: white;
+						background-color: $primary-blue;
+					} 
+				}
+			}
 		}
+}
+.contact {
+	height: 1000px;
+	width: 500px;
+	border: 1px solid red; 
+	padding: 0 20px 0 20px; 
+	h1 {
+		text-align: center;
 	}
+}
