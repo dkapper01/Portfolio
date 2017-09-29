@@ -3,12 +3,15 @@ $secondary-blue: #34495e;
 $dark-gray: #7f8c8d;
 $light-gray: #ecf0f1;
 
-* { margin: 0; padding: 0; }
+* { margin: 0; padding: 0;}
 
 body {
 	position: relative;
 	padding-top: 70px; 
 	overflow-y: scroll;
+}
+nav {
+	font-size: 1.2em;
 }
 
 #projects {
@@ -43,6 +46,7 @@ body {
 		.my-image {
 			order: 1;
 			img {
+				margin-top: 25px;
 				border-radius: 50%; 
 			}
 		}
@@ -116,10 +120,18 @@ body {
 }
 .contact {
 	height: 1000px;
-	width: 500px;
-	border: 1px solid red; 
+	width: 100%;
 	padding: 0 20px 0 20px; 
+	background-color: $light-gray;
 	h1 {
 		text-align: center;
+		margin-bottom: 30px;
+	}
+	.btn-blue {
+		background-color: $primary-blue;
+		color: white;
+	}
+	small {
+		color: red;
 	}
 }
