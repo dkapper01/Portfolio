@@ -11,15 +11,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </head>
 <body data-spy="scroll" id="about">
-	<!-- <nav>
-		<div class="navigation-wrapper">
-			<ul class="navigation">
-				<li><a href="#" class="active">About Me</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-	</nav> -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <div class="container">
         <!-- <a class="navbar-brand" href="#"></a> -->
@@ -47,108 +38,98 @@
 		<div class="introduction">
 			<div class="content">
 				<h2>Hi, I'm Daniel</h2>
-				<p>A web developer who loves learning, entrepreneurship, and building amazing things.<!-- I am Daniel, a web developer passionate about lifelong learning, programming, and building things through entrepreneurship. I am currently in search of new projects and opportunities, so feel free to contact me if you have anything that I can be involved in! You can take a look at my projects and contact me if you have any questions or comments! Thanks in advance! --></p>
+				<p>A web developer who loves learning, entrepreneurship, and building amazing things.</p>
 			</div>
 			<div class="my-image">
 				<img src="img/daniel-kapper.jpg" class="daniel">
 			</div>
 		</div>
-			<div id="projects"></div>
-			<div class="projects-wrapper">
-				<h1>< Projects /></h1>
-				<div class="projects">
-					<!-- project -->
-					<div class="project">
-					<h3>Brakeout</h3>
-						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-							<div class="flipper">
-								<div class="front">
-									<a href="https://dkapper01.github.io/2d-breakout-/" target="_blank"><img src="img/breakout.png" width="400px" height="280px"></a>
-								</div>
-								<div class="back">
-									
-								</div>
+		<div id="projects"></div>
+		<div class="projects-wrapper">
+			<h1>< Projects /></h1>
+			<div class="projects">
+				<!-- project -->
+				<div class="project">
+				<h3>Brakeout</h3>
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<a href="https://dkapper01.github.io/2d-breakout-/" target="_blank"><img src="img/breakout.png" width="400px" height="280px"></a>
+							</div>
+							<div class="back">
+								<p>Kapper</p>
 							</div>
 						</div>
-						<p>html/css/javascript</p>
 					</div>
-						<!-- project -->
-						<!-- project -->
-
-					<div class="project">
-						<h3>Pig</h3>
-						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-							<div class="flipper">
-								<div class="front">
-									<a href="https://dkapper01.github.io/pig-game/" target="_blank"><img src="img/dice.png" width="400px" height="280px"></a>
-								</div>
-								<div class="back">
-									<!-- back content --><p>Kapper</p>
-								</div>
+					<p>html/css/javascript</p>
+				</div>
+				<!-- project -->
+				<div class="project">
+					<h3>Pig</h3>
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<a href="https://dkapper01.github.io/pig-game/" target="_blank"><img src="img/dice.png" width="400px" height="280px"></a>
+							</div>
+							<div class="back">
+								<p>Kapper</p>
 							</div>
 						</div>
-						<p>html/css/javascript</p>
 					</div>
-
-					<div class="project">
-						<h3>Kiwi Social</h3>
-						<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-							<div class="flipper">
-								<div class="front">
-									<a href="https://kiwi-social.herokuapp.com/" target="_blank"><img src="img/kiwi.png" width="400px" height="280px"></a>
-								</div>
-								<div class="back">
-									<!-- back content --><p>Kapper</p>
-								</div>
+					<p>html/css/javascript</p>
+				</div>
+				<!-- project -->
+				<div class="project">
+					<h3>Kiwi Social</h3>
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<a href="https://kiwi-social.herokuapp.com/" target="_blank"><img src="img/kiwi.png" width="400px" height="280px"></a>
+							</div>
+							<div class="back">
+								<p>Kapper</p>
 							</div>
 						</div>
-						<p>Ruby on Rails</p>
 					</div>
-						<!-- project -->
-					</div>
-					</div>
-<!-- 			</div> -->
-			<div id="content"></div>
-			
-		
-
-
-<section class="contact">
-
-            <div class="container">
+					<p>Ruby on Rails</p>
+				</div>
+				<!-- project -->
+			</div>
+		</div>
+		<div id="content"></div>
+		<section class="contact">
+			<div class="container">
             <h1>Contact</h1>
-<div class="row">
-<div class="col-sm-4">
-
-<!-- <hr> -->
-<address>
-<strong>Name:</strong> Daniel Kapper<br>
-<strong>Email:</strong> dkapper01@gmail.com<br>
-<strong>Location:</strong> Washington DC<br>
-</address>
-</div>
-    
-<div class="col-sm-8 contact-form">
-<form id="contact" method="post" class="form" role="form">
-<div class="row">
-<div class="col-xs-6 col-md-6 form-group">
-<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
-</div>
-<div class="col-xs-6 col-md-6 form-group">
-<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-</div>
-</div>
-<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-<br />
-<div class="row">
-<div class="col-xs-12 col-md-12 form-group">
-<button class="btn btn-primary pull-right" type="submit">Submit</button>
-</form>
-</div>
-</div>
-        </section>
-        </div>
-
+				<div class="row">
+					<div class="col-sm-4">
+						<address>
+							<strong>Name:</strong> Daniel Kapper<br>
+							<strong>Email:</strong> dkapper01@gmail.com<br>
+							<strong>Location:</strong> Washington DC<br>
+						</address>
+					</div>   
+					<div class="col-sm-8 contact-form">
+						<form id="contact" method="post" class="form" role="form">
+							<div class="row">
+								<div class="col-xs-6 col-md-6 form-group">
+									<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+								</div>
+								<div class="col-xs-6 col-md-6 form-group">
+									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+								</div>
+							</div>
+								<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+								<br />
+							<div class="row">
+								<div class="col-xs-12 col-md-12 form-group">
+									<button class="btn btn-primary pull-right" type="submit">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </body>
 </html>
