@@ -11,46 +11,8 @@ body {
 	padding-top: 70px; 
 	overflow-y: scroll;
 }
-/*nav {
-	width: 100%; 
-	background-color: $primary-blue;
-		ul {
-		background-color: $primary-blue; 
-		list-style-type: none;
-		width: 100%; 
-		overflow: hidden;
-			li {
-				float: left;
-				a {
-					color: white; 
-					display: block;
-					font-size: 1.2em;
-					line-height: 3em;
-					width: 6em;
-					height: 3em; 
-					text-align: center;
-					text-decoration: none;
-				}	
-				a:hover:not(.active) {
-					background-color: $secondary-blue;
-				}
-				a.active {
-					background-color: $dark-gray;
-				}
-			}
-			@media screen and (max-width: 600px) {
-				li {
-					float: none;
-					a {
-						width: 100%;
-					}
-				}
-			}
-		}
-}*/
+
 #projects {
-	/*height: 51px;*/
-	/*background-color: $light-gray;*/
 	width: 100%; 
 	border-top: 25px solid white;
 	border-bottom: 26px solid $light-gray;
@@ -64,7 +26,6 @@ body {
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
-	border: 20px solid red; 
 	.introduction {
 		display: flex;
 		flex-flow: row wrap;
@@ -91,6 +52,7 @@ body {
 		width: 100%; 
 		background-color: $light-gray;
 		padding: 0px 20px 0px 20px;
+		text-align: center;
 		h1 {
 			text-align: center;
 		}
@@ -98,12 +60,16 @@ body {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-around;
-			width: 1000px; 
-			padding: 20px;
+			width: 100%; 
+			padding: 20px 375px;
 			height: auto;
 			margin: 0 auto;
-			.project {
-					/* entire container, keeps perspective */
+
+				.project {
+					p {
+						color: #e74c3c; 
+					}
+									/* entire container, keeps perspective */
 				.flip-container {
 					perspective: 1000px;
 				}
