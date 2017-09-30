@@ -19,13 +19,13 @@ nav {
 
 #projects {
 	width: 100%; 
-	border-top: 25px solid $light-gray;
-	border-bottom: 26px solid white;
+	border-top: 30px solid $light-gray;
+	border-bottom: 30px solid white;
 }
 #content {
 	width: 100%; 
-	border-top: 25px solid white;
-	border-bottom: 26px solid $light-gray;
+	border-top: 30px solid white;
+	border-bottom: 30px solid $light-gray;
 }
 
 .flex-container {
@@ -45,7 +45,8 @@ nav {
 			order: 2;
 			font-size: 1.2em;
 			width: 100%;
-			h2 {
+			h3 {
+				margin-top: 40px; 
 				margin-bottom: 10px;
 			}
 		}
@@ -143,7 +144,7 @@ nav {
 		}
 }
 .contact {
-	height: auto;
+	height: 900px;
 	width: 100%;
 	padding: 0 20px 0 20px; 
 	background-color: $light-gray;

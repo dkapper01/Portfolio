@@ -13,13 +13,13 @@ nav {
 
 #projects {
   width: 100%;
-  border-top: 25px solid #ecf0f1;
-  border-bottom: 26px solid white; }
+  border-top: 30px solid #ecf0f1;
+  border-bottom: 30px solid white; }
 
 #content {
   width: 100%;
-  border-top: 25px solid white;
-  border-bottom: 26px solid #ecf0f1; }
+  border-top: 30px solid white;
+  border-bottom: 30px solid #ecf0f1; }
 
 .flex-container {
   display: flex;
@@ -38,7 +38,8 @@ nav {
       order: 2;
       font-size: 1.2em;
       width: 100%; }
-      .flex-container .introduction .content h2 {
+      .flex-container .introduction .content h3 {
+        margin-top: 40px;
         margin-bottom: 10px; }
     .flex-container .introduction .my-image {
       order: 1; }
@@ -112,7 +113,7 @@ nav {
               border: none; }
 
 .contact {
-  height: auto;
+  height: 900px;
   width: 100%;
   padding: 0 20px 0 20px;
   background-color: #ecf0f1; }
