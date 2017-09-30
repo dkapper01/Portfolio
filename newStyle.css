@@ -128,5 +128,10 @@ nav {
     color: white; }
   .contact small {
     color: #e74c3c; }
+  .contact .footer-name {
+    text-align: center;
+    margin-top: 60px; }
+    .contact .footer-name small {
+      color: #2c3e50; }
 
 /*# sourceMappingURL=newStyle.css.map */

@@ -163,4 +163,11 @@ nav {
 	small {
 		color: $red;
 	}
+	.footer-name {
+		text-align: center;
+		margin-top: 60px;
+		small {
+			color: $primary-blue; 
+		}
+	}
 }
