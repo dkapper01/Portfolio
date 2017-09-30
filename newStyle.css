@@ -99,7 +99,7 @@ nav {
           .flex-container .projects-wrapper .projects .project .back button {
             border: none; }
           .flex-container .projects-wrapper .projects .project .back button:hover {
-            background-color: #e74c3c;
+            background-color: #27ae60;
             transition-duration: 0.4s; }
           .flex-container .projects-wrapper .projects .project .back .goLive {
             background-color: #ecf0f1;

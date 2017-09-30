@@ -3,6 +3,7 @@ $secondary-blue: #34495e;
 $dark-gray: #7f8c8d;
 $light-gray: #ecf0f1;
 $red: #e74c3c;
+$green: #27ae60; 
 
 * { margin: 0; padding: 0;}
 
@@ -122,7 +123,7 @@ nav {
 							border: none;
 						}
 						button:hover {
-							background-color: $red;
+							background-color: $green;
 							transition-duration: 0.4s;
 						}
 						.goLive {
