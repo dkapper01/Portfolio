@@ -7,9 +7,13 @@ body .about-container {
   height: auto;
   padding-top: 90px; }
   body .about-container .intro {
-    border: 1px solid red;
+    /*border: 1px solid red; */
     width: 600px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 20px; }
+    @media screen and (max-width: 800px) {
+      body .about-container .intro {
+        width: 100%; } }
   body .about-container img {
     border-radius: 50%;
     display: block;

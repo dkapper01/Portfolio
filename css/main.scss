@@ -1,5 +1,6 @@
 $light-gray: #ecf0f1; 
 $white: #ffffff; 
+$break-small: 800px; 
 * { padding: 0; margin: 0; }
 
 
@@ -9,9 +10,13 @@ body {
 		height: auto; 
 		padding-top: 90px;
 		.intro {
-			border: 1px solid red; 
+			/*border: 1px solid red; */
 			width: 600px; 
 			margin: 0 auto;
+			padding-bottom: 20px; 
+			@media screen and (max-width: $break-small) {
+				width: 100%; 
+			}
 		}
 		img {
 			border-radius: 50%; 
