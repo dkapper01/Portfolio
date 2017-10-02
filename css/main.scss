@@ -1,18 +1,17 @@
 $light-gray: #ecf0f1; 
 $white: #ffffff; 
-* { padding: 0; margin: 0;}
+* { padding: 0; margin: 0; }
 
 
 body {
 	.about-container {
-		/*border: 1px solid red; */
 		background-color: $light-gray;
 		height: auto; 
 		padding-top: 90px;
 		.intro {
-			margin-top: 40px; 
-			margin-left: 260px; 
-			padding-bottom: 30px; 
+			border: 1px solid red; 
+			width: 600px; 
+			margin: 0 auto;
 		}
 		img {
 			border-radius: 50%; 

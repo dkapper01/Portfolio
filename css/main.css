@@ -3,14 +3,13 @@
   margin: 0; }
 
 body .about-container {
-  /*border: 1px solid red; */
   background-color: #ecf0f1;
   height: auto;
   padding-top: 90px; }
   body .about-container .intro {
-    margin-top: 40px;
-    margin-left: 260px;
-    padding-bottom: 30px; }
+    border: 1px solid red;
+    width: 600px;
+    margin: 0 auto; }
   body .about-container img {
     border-radius: 50%;
     display: block;
