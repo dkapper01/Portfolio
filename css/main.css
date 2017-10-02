@@ -11,7 +11,7 @@ body .about-container {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
       body .about-container .intro {
         width: 100%; } }
   body .about-container img {
