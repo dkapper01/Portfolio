@@ -105,48 +105,46 @@ body {
 		padding-top: 20px; 
 		background-color: $light-gray;
 
-
 		h2 {
 		text-align: center;
 		margin-bottom: 5px;
-	}
-	h5 {
-		text-align: center;
-		margin-bottom: 40px; 
-	}
-	.btn-blue {
-		border-radius: 10px;
-		background-color: $blue;
-		color: white;
-	}
-	small {
-		color: red;
-	}
-	.footer-name {
-		text-align: center;
-		margin-top: 10px;
-		small {
-			color: $blue; 
 		}
-	}
-	.footer-icons {
-		text-align: center;
-		margin-top: 60px;
-		margin-bottom: 30px; 
-	}
-	.fa-twitter-square {
-		color: #1DA1F2;
-	}
-	.fa-instagram {
-		color: #e95950;
-	}
-	.fa-linkedin-square {
-		color: #0077B5;
-	}
-	.fa-github-square {
-		color: black;
-	}
-
+		h5 {
+			text-align: center;
+			margin-bottom: 80px; 
+		}
+		.btn-blue {
+			border-radius: 10px;
+			background-color: $blue;
+			color: white;
+		}
+		small {
+			color: red;
+		}
+		.footer-name {
+			text-align: center;
+			margin-top: 10px;
+			small {
+				color: $blue; 
+			}
+		}
+		.footer-icons {
+			text-align: center;
+			margin-top: 70px;
+			margin-bottom: 30px; 
+		}
+		.fa-twitter-square {
+			color: #1DA1F2;
+		}
+		.fa-instagram {
+			color: #e95950;
+		}
+		.fa-linkedin-square {
+			color: #0077B5;
+		}
+		.fa-github-square {
+			color: black;
+		}
 
 	}
 }
