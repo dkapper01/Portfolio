@@ -84,7 +84,7 @@ body {
           body .projects-container .projects .project .back .goLive img {
             border: none; }
   body .contact-container {
-    height: 600px;
+    height: auto;
     padding-top: 20px;
     background-color: #ecf0f1; }
     body .contact-container h2 {
@@ -106,7 +106,8 @@ body {
         color: #2c3e50; }
     body .contact-container .footer-icons {
       text-align: center;
-      margin-top: 60px; }
+      margin-top: 60px;
+      margin-bottom: 30px; }
     body .contact-container .fa-twitter-square {
       color: #1DA1F2; }
     body .contact-container .fa-instagram {

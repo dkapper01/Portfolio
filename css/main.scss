@@ -108,7 +108,7 @@ body {
 		}
 	/*}*/
 	.contact-container {
-		height: 600px; 
+		height: auto; 
 		padding-top: 20px; 
 		background-color: $light-gray;
 
@@ -139,6 +139,7 @@ body {
 	.footer-icons {
 		text-align: center;
 		margin-top: 60px;
+		margin-bottom: 30px; 
 	}
 	.fa-twitter-square {
 		color: #1DA1F2;
