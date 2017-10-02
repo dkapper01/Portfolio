@@ -16,6 +16,8 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/15f8f6b2f0.js"></script>
 
   </head>
 
@@ -24,7 +26,6 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
-        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,18 +51,15 @@
     </nav>
 
     <div id="about" class="about-container">
-    	<div class="container">
+    	<div class="intro">
     		<img src="img/daniel-kapper.jpg">
-    		<div class="intro">
     			<h3>Hi, I'm Daniel</h3>
-      			<p>A web developer who loves learning, entrepreneurship, and building amazing things.</p>
+      			<h5>A web developer who loves learning, entrepreneurship, and building amazing things.</h5>
     		</div>
-    	</div>
     </div>
 
-    <div id="projects" class="projects-container">
-      <h1>< Projects /></h1>
-      <div class="projects-wrapper">
+    <div id="projects">
+      <div class="projects-container">
 			<h2>< Projects /></h2>
 			<div class="projects">
 				<!-- project -->
@@ -75,18 +73,99 @@
 							<div class="back">
 								<p>MDN Breakout game written entirely in pure JavaScript and rendered on HTML5 canvas</p>
 
-								<a href="https://dkapper01.github.io/2d-breakout-/"><button class="goLive"> <img src="img/share-symbol.png"> Go To Live Site</button></a>
+								<a href="https://dkapper01.github.io/2d-breakout-/"><button class="goLive"><i class="fa fa-2x fa-thumbs-o-up" aria-hidden="true"></i> Go To Website</button></a>
 
-								<a href="https://github.com/dkapper01/2d-breakout-" target="_blank"><button class="goLive"> <img src="img/github-sign.png"> View Sorces Code</button></a>
+								<a href="https://github.com/dkapper01/2d-breakout-" target="_blank"><button class="goLive"> <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i> Sorces Code</button></a>
+
+
 							</div>
 						</div>
 					</div>
 					<p><i>html5/javascript</i></p>
 				</div>
+				<!-- project -->
+				<div class="project">
+					<h5>Pig</h5>
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<img src="img/dice.png" width="400px" height="280px">
+							</div>
+							<div class="back">
+								<p>A beautifully designed two player dice game and the first player to get 100 points wins</p>
+
+								<a href="https://dkapper01.github.io/pig-game/"><button class="goLive"><i class="fa fa-2x fa-thumbs-o-up" aria-hidden="true"></i> Go To Website</button></a>
+
+								<a href="https://github.com/dkapper01/pig-game" target="_blank"><button class="goLive"> <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i> Sorces Code</button></a>
+							</div>
+						</div>
+					</div>
+					<p><i>html/css/javascript</i></p>
+				</div>
+				<!-- project -->
+				<div class="project">
+					<h5>Kiwi Social</h5>
+					<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipper">
+							<div class="front">
+								<img src="img/kiwi.png" width="400px" height="280px">
+							</div>
+							<div class="back">
+								<p>A twitter like social media web app where users can follow you and you can follow other users.</p>
+
+								<a href="https://kiwi-social.herokuapp.com/" target="_blank"><button class="goLive"><i class="fa fa-2x fa-thumbs-o-up" aria-hidden="true"></i> Go To Website</button></a>
+
+								<a href="https://github.com/dkapper01/kiwi-social" target="_blank"><button class="goLive"> <i class="fa fa-2x fa-github-alt" aria-hidden="true"></i> Sorces Code</button></a>
+							</div>
+						</div>
+					</div>
+					<p><i>Ruby on Rails</i></p>
+				</div>
+				<!-- project -->
+			</div>
+		</div>
     </div>
 
      <div id="contact" class="contact-container">
-      <h2>Contact</h2>
+			<div class="container">
+            <h2>Contact</h2>
+            <h5> Please don't hesitate to contact me! I will be happy to hear form you!</h5>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-2">
+            <form action="https://formspree.io/dkapper01@gmail.com" method="post">
+              <input type="hidden" data-form-email="true">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-m btn-blue btn">Contact Me</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-4">
+				<address>
+					<strong>Name:</strong> Daniel Kapper<br>
+					<strong>Email:</strong> dkapper01@gmail.com<br>
+					<strong>From:</strong> St. Louis, MO<br>
+					<strong>Currnet:</strong> Washington, D.C. <small><i> - since 10/2017</i></small><br>
+				</address>
+			</div>   
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-sm-12 footer-icons">
+      		<a href="https://github.com/dkapper01"><i class="fa fa-3x fa-github-square" aria-hidden="true"></i></a>
+      		<a href="https://www.linkedin.com/in/danielkapper/"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+      		<a href="https://twitter.com/dkapper01"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+      		<a href="https://www.instagram.com/dkapper01/"><i class="fa fa-3x fa-instagram" aria-hidden="true"></i></a>
+  		</div>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -94,7 +173,6 @@
       <div class="container">
         <p class="m-0 text-center text-white"><small>Copyright &copy; Daniel Kapper 2017</small></p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->

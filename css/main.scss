@@ -23,90 +23,83 @@ body {
 			margin: 0 auto; 
 		}
 	}
-	/*.projects-container {*/
-		.projects-container {
+	.projects-container {
+	width: 100%; 
+	background-color: white;
+	padding: 0 350px; 
+	text-align: center;
+	h2 {
+		margin-top: 20px; 
+	}
+	.projects {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
 		width: 100%; 
-		background-color: white;
-		padding: 0px 20px 0px 20px;
-		text-align: center;
-		h2 {
-			margin-top: 20px; 
-		}
-		/*h1 {
-			text-align: center;
-		}*/
-		.projects {
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: space-around;
-			width: 100%; 
-			padding: 20px 375px;
-			height: auto;
-			margin: 0 auto;
-				.project {
-					/* entire container, keeps perspective */
-					.flip-container {
-						perspective: 1000px;
-					}
-						/* flip the pane when hovered */
-						.flip-container:hover .flipper, .flip-container.hover .flipper {
-							transform: rotateY(180deg);
-						}
-					.flip-container, .front, .back {
-						width: 400px;
-						height: 280px;
-					}
-					/* flip speed goes here */
-					.flipper {
-						transition: 0.6s;
-						transform-style: preserve-3d;
-
-						position: relative;
-					}
-					/* hide back of pane during swap */
-					.front, .back {
-						backface-visibility: hidden;
-						position: absolute;
-						top: 0;
-						left: 0;
-						img {
-							border: 1px solid #bdc3c7;
-						}
-					}
-					/* front pane, placed above back */
-					.front {
-						z-index: 2;
-						/* for firefox 31 */
-						transform: rotateY(0deg);
-					}
-					/* back, initially hidden pane */
-					.back {
-						transform: rotateY(180deg);
-						background-color: $light-gray; 
-						padding: 20px;
-						button {
-							background-color: $blue;
-							color: $white;
-							border-radius: 10px; 
-							width: 150px; 
-							height: 50px; 
-							line-height: 50px; 
-						}						
-						button:hover {
-							background-color: #bdc3c7;
-							transition-duration: 0.4s;
-						}
-						.goLive {
-							
-							img {
-								border: none;
-							}
-						}
-					} 
+		margin: 0 auto;
+			.project {
+				/* entire container, keeps perspective */
+				.flip-container {
+					perspective: 1000px;
 				}
+				/* flip the pane when hovered */
+				.flip-container:hover .flipper, .flip-container.hover .flipper {
+					transform: rotateY(180deg);
+				}
+				.flip-container, .front, .back {
+					width: 400px;
+					height: 280px;
+				}
+				/* flip speed goes here */
+				.flipper {
+					transition: 0.6s;
+					transform-style: preserve-3d;
+					position: relative;
+				}
+				/* hide back of pane during swap */
+				.front, .back {
+					backface-visibility: hidden;
+					position: absolute;
+					top: 0;
+					left: 0;
+					img {
+						border: 1px solid #bdc3c7;
+					}
+				}
+				/* front pane, placed above back */
+				.front {
+					z-index: 2;
+					/* for firefox 31 */
+					transform: rotateY(0deg);
+				}
+				/* back, initially hidden pane */
+				.back {
+					transform: rotateY(180deg);
+					background-color: $light-gray; 
+					padding: 20px;
+					button {
+						background-color: $blue;
+						border: none;
+						color: $white;
+						border-radius: 10px; 
+						width: 150px; 
+						height: 45px; 
+						line-height: 50px; 
+					}						
+					button:hover {
+						background-color: #bdc3c7;
+						transition-duration: 0.4s;
+					}
+					.goLive {
+						
+						img {
+							border: none;
+						}
+					}
+				} 
 			}
 		}
-	/*}*/
+	}
 	.contact-container {
 		height: auto; 
 		padding-top: 20px; 
@@ -115,7 +108,6 @@ body {
 
 		h2 {
 		text-align: center;
-		/*margin-top: 20px; */
 		margin-bottom: 5px;
 	}
 	h5 {
