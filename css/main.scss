@@ -1,6 +1,6 @@
 $light-gray: #ecf0f1; 
 $white: #ffffff; 
-$break-small: 600px; 
+$break-small: 700px; 
 $blue: #2c3e50; 
 * { padding: 0; margin: 0; }
 
@@ -10,8 +10,7 @@ body {
 		height: auto; 
 		padding-top: 90px;
 		.intro {
-			/*border: 1px solid red; */
-			width: 600px; 
+			width: 750px; 
 			margin: 0 auto;
 			padding-bottom: 20px; 
 			@media screen and (max-width: $break-small) {
@@ -110,7 +109,51 @@ body {
 	/*}*/
 	.contact-container {
 		height: 600px; 
+		padding-top: 20px; 
 		background-color: $light-gray;
+
+
+		h2 {
+		text-align: center;
+		/*margin-top: 20px; */
+		margin-bottom: 5px;
+	}
+	h5 {
+		text-align: center;
+		margin-bottom: 40px; 
+	}
+	.btn-blue {
+		background-color: $blue;
+		color: white;
+	}
+	small {
+		color: red;
+	}
+	.footer-name {
+		text-align: center;
+		margin-top: 10px;
+		small {
+			color: $blue; 
+		}
+	}
+	.footer-icons {
+		text-align: center;
+		margin-top: 60px;
+	}
+	.fa-twitter-square {
+		color: #1DA1F2;
+	}
+	.fa-instagram {
+		color: #e95950;
+	}
+	.fa-linkedin-square {
+		color: #0077B5;
+	}
+	.fa-github-square {
+		color: black;
+	}
+
+
 	}
 }
 
