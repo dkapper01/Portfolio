@@ -2,30 +2,98 @@
   padding: 0;
   margin: 0; }
 
-body .about-container {
-  background-color: #ecf0f1;
-  height: auto;
-  padding-top: 90px; }
-  body .about-container .intro {
-    /*border: 1px solid red; */
-    width: 600px;
-    margin: 0 auto;
-    padding-bottom: 20px; }
-    @media screen and (max-width: 600px) {
-      body .about-container .intro {
-        width: 100%; } }
-  body .about-container img {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto; }
-body .projects-container {
-  height: 700px;
-  background-color: #ffffff; }
-  body .projects-container h1 {
-    margin: 15px;
-    text-align: center; }
-body .contact-container {
-  height: 600px;
-  background-color: #ecf0f1; }
+body {
+  /*.projects-container {*/
+  /*}*/ }
+  body .about-container {
+    background-color: #ecf0f1;
+    height: auto;
+    padding-top: 90px; }
+    body .about-container .intro {
+      /*border: 1px solid red; */
+      width: 600px;
+      margin: 0 auto;
+      padding-bottom: 20px; }
+      @media screen and (max-width: 600px) {
+        body .about-container .intro {
+          width: 100%; } }
+    body .about-container img {
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto; }
+  body .projects-container {
+    width: 100%;
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    /*h1 {
+    	text-align: center;
+    }*/ }
+    body .projects-container h2 {
+      margin-top: 20px; }
+    body .projects-container .projects {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      width: 100%;
+      padding: 20px 375px;
+      height: auto;
+      margin: 0 auto; }
+      body .projects-container .projects .project {
+        /* entire container, keeps perspective */
+        /* flip the pane when hovered */
+        /* flip speed goes here */
+        /* hide back of pane during swap */
+        /* front pane, placed above back */
+        /* back, initially hidden pane */ }
+        body .projects-container .projects .project i {
+          color: red; }
+        body .projects-container .projects .project .flip-container {
+          perspective: 1000px; }
+        body .projects-container .projects .project .flip-container:hover .flipper, body .projects-container .projects .project .flip-container.hover .flipper {
+          transform: rotateY(180deg); }
+        body .projects-container .projects .project .flip-container, body .projects-container .projects .project .front, body .projects-container .projects .project .back {
+          width: 400px;
+          height: 280px; }
+        body .projects-container .projects .project .flipper {
+          transition: 0.6s;
+          transform-style: preserve-3d;
+          position: relative; }
+        body .projects-container .projects .project .front, body .projects-container .projects .project .back {
+          backface-visibility: hidden;
+          position: absolute;
+          top: 0;
+          left: 0; }
+          body .projects-container .projects .project .front img, body .projects-container .projects .project .back img {
+            border: 1px solid #bdc3c7; }
+        body .projects-container .projects .project .front {
+          z-index: 2;
+          /* for firefox 31 */
+          transform: rotateY(0deg); }
+        body .projects-container .projects .project .back {
+          transform: rotateY(180deg);
+          color: white;
+          background-color: #2c3e50;
+          padding: 10px;
+          -webkit-box-shadow: inset 0px 0px 28px 0px rgba(0, 0, 0, 0.61);
+          -moz-box-shadow: inset 0px 0px 28px 0px rgba(0, 0, 0, 0.61);
+          box-shadow: inset 0px 0px 28px 0px rgba(0, 0, 0, 0.61); }
+          body .projects-container .projects .project .back button {
+            border: none;
+            padding: 5px; }
+          body .projects-container .projects .project .back button:hover {
+            background-color: #bdc3c7;
+            transition-duration: 0.4s; }
+          body .projects-container .projects .project .back .goLive {
+            background-color: #ecf0f1;
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            /*border-radius: 5px;*/ }
+            body .projects-container .projects .project .back .goLive img {
+              border: none; }
+  body .contact-container {
+    height: 600px;
+    background-color: #ecf0f1; }
 
 /*# sourceMappingURL=main.css.map */
