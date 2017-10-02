@@ -5,9 +5,21 @@ $white: #ffffff;
 
 body {
 	.about-container {
-		border: 1px solid red;
-		height: 600px; 
+		/*border: 1px solid red; */
 		background-color: $light-gray;
+		height: auto; 
+		padding-top: 90px;
+		.intro {
+			/*border: 1px solid red; */
+			margin-top: 40px; 
+			margin-left: 260px; 
+			padding-bottom: 30px; 
+		}
+		img {
+			border-radius: 50%; 
+			display: block;
+			margin: 0 auto; 
+		}
 	}
 	.projects-container {
 		height: 700px; 

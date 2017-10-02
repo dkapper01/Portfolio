@@ -3,9 +3,19 @@
   margin: 0; }
 
 body .about-container {
-  border: 1px solid red;
-  height: 600px;
-  background-color: #ecf0f1; }
+  /*border: 1px solid red; */
+  background-color: #ecf0f1;
+  height: auto;
+  padding-top: 90px; }
+  body .about-container .intro {
+    /*border: 1px solid red; */
+    margin-top: 40px;
+    margin-left: 260px;
+    padding-bottom: 30px; }
+  body .about-container img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
 body .projects-container {
   height: 700px;
   background-color: #ffffff; }
