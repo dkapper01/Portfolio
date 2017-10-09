@@ -40,8 +40,15 @@ body .projects-container {
       /* front pane, placed above back */
       /* back, initially hidden pane */ }
       body .projects-container .projects .project .flip-container {
-        perspective: 1000px; }
+        -webkit-perspective: 1000;
+        -moz-perspective: 1000;
+        -o-perspective: 1000;
+        perspective: 1000; }
       body .projects-container .projects .project .flip-container:hover .flipper, body .projects-container .projects .project .flip-container.hover .flipper {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
         transform: rotateY(180deg); }
       body .projects-container .projects .project .flip-container, body .projects-container .projects .project .front, body .projects-container .projects .project .back {
         width: 400px;
@@ -51,6 +58,9 @@ body .projects-container {
         transform-style: preserve-3d;
         position: relative; }
       body .projects-container .projects .project .front, body .projects-container .projects .project .back {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
         backface-visibility: hidden;
         position: absolute;
         top: 0;
