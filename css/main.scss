@@ -5,6 +5,9 @@ $blue: #2c3e50;
 * { padding: 0; margin: 0; }
 
 body {
+	.nav-blue {
+		background-color: $blue !important; 
+	}
 	.about-container {
 		background-color: $light-gray;
 		height: auto; 
@@ -126,13 +129,13 @@ body {
 		small {
 			color: red;
 		}
-		.footer-name {
+		/*.footer-name {
 			text-align: center;
 			margin-top: 10px;
 			small {
 				color: $blue; 
 			}
-		}
+		}*/
 		.footer-icons {
 			text-align: center;
 			margin-top: 70px;
@@ -152,6 +155,10 @@ body {
 		}
 
 	}
+	.footer-blue {
+		background-color: $blue !important; 
+	}
 }
+
 
 
