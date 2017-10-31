@@ -11,7 +11,7 @@ body {
 	}
 	.about-container {
 		background-color: $light-gray;
-		height: 300px;
+		height: 340px;
 		padding-top: 90px;
 		background-image: url("../img/code-bg.png");
 		.intro {
@@ -20,7 +20,9 @@ body {
 			padding-bottom: 20px;
 			font-family: 'Monoton', cursive;
 			color: white;
-			font-size: 200%; 
+			font-size: 200%;
+
+
 			@media screen and (max-width: $break-small) {
 				width: 100%;
 			}
@@ -37,6 +39,7 @@ body {
 	background-color: $light-gray;
 	padding: 0 200px;
 	text-align: center;
+	// font-family: 'Monoton', cursive;
 	// background-image: url("../img/code-bg.png");
 	h2 {
 		margin-top: 20px;
@@ -190,7 +193,16 @@ body {
 		background-color: $blue !important;
 	}
 }
-
+// h2 {
+// 	font-family: 'Monoton', cursive;
+// }
+// .new-font {
+// 	font-family: 'Monoton', cursive;
+// }
+.more-space {
+	margin-top: -8px;
+	margin-bottom: 40px;
+}
 .bob {
 	// font-family: devicons;
 
