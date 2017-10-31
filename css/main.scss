@@ -119,6 +119,20 @@ body {
 			}
 		}
 	}
+	.skills {
+		height: auto;
+		background-color: white;
+		text-align: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		.space {
+			margin-bottom: 50px;
+		}
+		.move-up {
+			margin-top: 50px;
+		}
+
+	}
 	.contact-container {
 		height: auto;
 		padding-top: 2px;
@@ -173,4 +187,18 @@ body {
 	.footer-blue {
 		background-color: $blue !important;
 	}
+}
+
+.bob {
+	// font-family: devicons;
+
+	font-size: 350%;
+	// speak: none;
+	// font-style: normal;
+	// font-weight: 400;
+	// font-variant: normal;
+	// text-transform: none;
+	// line-height: 1;
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
 }
