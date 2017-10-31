@@ -1,44 +1,45 @@
-$light-gray: #ecf0f1; 
-$white: #ffffff; 
-$break-small: 700px; 
-$blue: #2c3e50; 
+$light-gray: #ecf0f1;
+$white: #ffffff;
+$break-small: 700px;
+$blue: #2c3e50;
 * { padding: 0; margin: 0; }
 
 body {
 	.nav-blue {
-		background-color: $blue !important; 
+		background-color: $blue !important;
 	}
 	.about-container {
 		background-color: $light-gray;
-		height: auto; 
+		height: auto;
 		padding-top: 90px;
 		.intro {
-			width: 750px; 
+			width: 750px;
 			margin: 0 auto;
-			padding-bottom: 20px; 
+			padding-bottom: 20px;
 			@media screen and (max-width: $break-small) {
-				width: 100%; 
+				width: 100%;
 			}
 		}
 		img {
-			border-radius: 50%; 
+			border-radius: 50%;
+			border: 7px solid #2d3f50; 
 			display: block;
-			margin: 0 auto; 
+			margin: 0 auto;
 		}
 	}
 	.projects-container {
-	width: 100%; 
+	width: 100%;
 	background-color: white;
-	padding: 0 200px; 
+	padding: 0 200px;
 	text-align: center;
 	h2 {
-		margin-top: 20px; 
+		margin-top: 20px;
 	}
 	.projects {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
-		width: 100%; 
+		width: 100%;
 		margin: 0 auto;
 			.project {
 				/* entire container, keeps perspective */
@@ -88,35 +89,35 @@ body {
 				/* back, initially hidden pane */
 				.back {
 					transform: rotateY(180deg);
-					background-color: $light-gray; 
+					background-color: $light-gray;
 					padding: 20px;
 					button {
 						background-color: $blue;
 						border: none;
 						color: $white;
-						border-radius: 10px; 
-						width: 150px; 
-						height: 45px; 
-						line-height: 50px; 
-					}						
+						border-radius: 10px;
+						width: 150px;
+						height: 45px;
+						line-height: 50px;
+					}
 					button:hover {
 						background-color: #34495e;
 						transition-duration: 0.4s;
 						cursor: pointer;
 					}
 					.goLive {
-						
+
 						img {
 							border: none;
 						}
 					}
-				} 
+				}
 			}
 		}
 	}
 	.contact-container {
-		height: auto; 
-		padding-top: 20px; 
+		height: auto;
+		padding-top: 20px;
 		background-color: $light-gray;
 
 		h2 {
@@ -125,7 +126,7 @@ body {
 		}
 		h5 {
 			text-align: center;
-			margin-bottom: 80px; 
+			margin-bottom: 80px;
 		}
 		button {
 			border-radius: 10px;
@@ -143,13 +144,13 @@ body {
 			text-align: center;
 			margin-top: 10px;
 			small {
-				color: $blue; 
+				color: $blue;
 			}
 		}*/
 		.footer-icons {
 			text-align: center;
 			margin-top: 70px;
-			margin-bottom: 30px; 
+			margin-bottom: 30px;
 		}
 		.fa-twitter-square {
 			color: #1DA1F2;
@@ -166,9 +167,6 @@ body {
 
 	}
 	.footer-blue {
-		background-color: $blue !important; 
+		background-color: $blue !important;
 	}
 }
-
-
-

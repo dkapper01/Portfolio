@@ -17,6 +17,7 @@ body .about-container {
         width: 100%; } }
   body .about-container img {
     border-radius: 50%;
+    border: 7px solid #2d3f50;
     display: block;
     margin: 0 auto; }
 body .projects-container {
@@ -97,7 +98,7 @@ body .contact-container {
   	text-align: center;
   	margin-top: 10px;
   	small {
-  		color: $blue; 
+  		color: $blue;
   	}
   }*/ }
   body .contact-container h2 {
