@@ -18,7 +18,9 @@ body {
 			width: 750px;
 			margin: 0 auto;
 			padding-bottom: 20px;
+			font-family: 'Monoton', cursive;
 			color: white;
+			font-size: 200%; 
 			@media screen and (max-width: $break-small) {
 				width: 100%;
 			}
