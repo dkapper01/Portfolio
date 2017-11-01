@@ -3,6 +3,7 @@
   margin: 0; }
 
 body {
+  font-family: 'Catamaran', sans-serif;
   background-color: #ecf0f1; }
   body .nav-blue {
     background-color: #2c3e50 !important; }
@@ -10,12 +11,13 @@ body {
     background-color: #ecf0f1;
     height: 340px;
     padding-top: 90px;
-    background-image: url("../img/code-bg.png"); }
+    background-image: url("../img/code-bg.png");
+    font-family: 'Source Code Pro', monospace; }
     body .about-container .intro {
       width: 750px;
       margin: 0 auto;
       padding-bottom: 20px;
-      font-family: 'Monoton', cursive;
+      font-family: 'Source Code Pro', monospace;
       color: white;
       font-size: 200%; }
       @media screen and (max-width: 700px) {
