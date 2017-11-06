@@ -151,4 +151,9 @@ body {
 .bob {
   font-size: 500%; }
 
+form {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=main.css.map */
