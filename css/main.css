@@ -10,14 +10,13 @@ body {
   body .about-container {
     background-color: #ecf0f1;
     height: 340px;
-    padding-top: 90px;
-    background-image: url("../img/code-bg.png");
-    font-family: 'Source Code Pro', monospace; }
+    padding-top: 120px;
+    background-image: url("../img/code-bg.png"); }
     body .about-container .intro {
       width: 750px;
       margin: 0 auto;
       padding-bottom: 20px;
-      font-family: 'Source Code Pro', monospace;
+      /* font-family: 'Source Code Pro', monospace; */
       color: white;
       font-size: 200%; }
       @media screen and (max-width: 700px) {

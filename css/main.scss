@@ -5,7 +5,6 @@ $blue: #2c3e50;
 * { padding: 0; margin: 0; }
 
 body {
-
 	font-family: 'Catamaran', sans-serif;
 	background-color: $light-gray;
 	.nav-blue {
@@ -14,9 +13,9 @@ body {
 	.about-container {
 		background-color: $light-gray;
 		height: 340px;
-		padding-top: 90px;
+		padding-top: 120px;
 		background-image: url("../img/code-bg.png");
-		font-family: 'Source Code Pro', monospace;
+		// font-family: 'Source Code Pro', monospace;
 		.intro {
 			width: 750px;
 			margin: 0 auto;
