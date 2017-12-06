@@ -21,6 +21,9 @@ body {
       @media screen and (max-width: 700px) {
         body .about-container .intro {
           width: 100%; } }
+  body .heading-intro {
+    margin: 25px auto 0 auto;
+    text-align: center; }
   body .projects-container {
     width: 100%;
     background-color: #ecf0f1;

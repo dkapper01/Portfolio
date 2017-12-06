@@ -16,6 +16,7 @@ body {
 		padding-top: 120px;
 		background-image: url("../img/code-bg.png");
 		.intro {
+			// need to make responsive for mobile 
 			width: 750px;
 			margin: 0 auto;
 			padding-bottom: 20px;
@@ -25,6 +26,10 @@ body {
 				width: 100%;
 			}
 		}
+	}
+	.heading-intro {
+		margin: 25px auto 0 auto; 
+		text-align: center; 
 	}
 	.projects-container {
 		width: 100%;
@@ -166,6 +171,7 @@ body {
 
 	}
 }
+
 form {
 	background-color: $light-gray;
 	padding: 10px;
