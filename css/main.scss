@@ -129,53 +129,25 @@ body {
 	}
 	.contact-container {
 		height: auto;
-		padding-top: 2px;
 		background-color: white;
+		padding-top: 25px; 
 		h2 {
 			text-align: center;
-			margin-bottom: 5px;
-		}
-		h5 {
-			text-align: center;
-			margin-bottom: 60px;
-		}
-		button {
-			border-radius: 20px;
-			background-color: $blue;
-			color: white;
-		}
-		button:hover {
-				background-color: #34495e;
-				cursor: pointer;
-			}
-		small {
-			color: red;
 		}
 		.footer-icons {
 			text-align: center;
-			margin-top: 50px;
-			margin-bottom: 30px;
+			margin-top: 30px;
+			margin-bottom: 60px;
 		}
-		.fa-twitter-square {
-			color: #1DA1F2;
+		.fa-envelope-o {
+			color: $blue; 
 		}
-		.fa-instagram {
-			color: #e95950;
+		.fa-linkedin {
+			color: #0077B5; 
 		}
-		.fa-linkedin-square {
-			color: #0077B5;
-		}
-		.fa-github-square {
+		.fa-github {
 			color: black;
 		}
 
 	}
-}
-
-form {
-	background-color: $light-gray;
-	padding: 10px;
-	border-radius: 10px;
-	// border: 1px solid $blue;
-
 }
