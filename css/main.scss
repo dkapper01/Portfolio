@@ -12,14 +12,14 @@ body {
 	}
 	.about-container {
 		background-color: $light-gray;
-		height: 350px;
-		padding-top: 120px;
+		height: 250px;
+		padding-top: 80px;
 		background-image: url("../img/code-bg.png");
 		.intro {
 			// need to make responsive for mobile 
 			width: 750px;
 			margin: 0 auto;
-			padding-bottom: 20px;
+			// padding-bottom: 20px;
 			color: white;
 			font-size: 200%;
 			@media screen and (max-width: $break-small) {
@@ -34,7 +34,7 @@ body {
 	.projects-container {
 		width: 100%;
 		background-color: $light-gray;
-		padding: 50px 180px;
+		padding: 25px 180px;
 		text-align: center;
 	.projects {
 		display: flex;
@@ -113,8 +113,8 @@ body {
 	.section {
 		background-color: white;
 		text-align: center;
-		padding-top: 70px; 
-		padding-bottom: 50px;
+		padding-top: 25px; 
+		padding-bottom: 25px;
 		.sizedIcons {
 			font-size: 450%;
 			speak: none;
@@ -137,7 +137,7 @@ body {
 		.footer-icons {
 			text-align: center;
 			margin-top: 30px;
-			margin-bottom: 60px;
+			margin-bottom: 40px;
 		}
 		.fa-envelope-o {
 			color: $blue; 
